@@ -1,0 +1,10 @@
+{
+    "name":"adapt-alternative-start",
+    "version":"0.5.1",
+    "displayName":"Alternative Starting Location",
+    "main":"/js/adapt-alternative-start.js",
+    "keywords":[
+        "adapt-plugin",
+        "adapt-extension"
+    ]
+}

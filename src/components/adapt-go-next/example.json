@@ -1,0 +1,33 @@
+{
+    "_id": "c-01_06-next",
+    "_isComplete": true,
+    "_parentId": "b-01_06-next",
+    "_type": "component",
+    "_component": "go-next",
+    "_classes": "",
+    "_layout": "full",
+    "_button": {
+        "text": "Ready to continue?"
+    },
+    "_navigateTo": "b-01_07_004",
+    "_pageLevelProgress": {
+        "_isEnabled": false
+    }
+}
+
+{
+    "_id": "c-01_06-next",
+    "_isComplete": true,
+    "_parentId": "b-01_06-next",
+    "_type": "component",
+    "_component": "go-next",
+    "_classes": "",
+    "_layout": "full",
+    "_button": {
+        "text": "Ready to continue?"
+    },
+    "_navigateTo": "menu",
+    "_pageLevelProgress": {
+        "_isEnabled": false
+    }
+}

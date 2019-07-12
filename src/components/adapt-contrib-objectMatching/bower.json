@@ -1,0 +1,20 @@
+{
+  "name": "adapt-contrib-objectMatching",
+  "version": "2.0.0",
+  "framework": "^2.0.0",
+  "homepage": "https://github.com/ExultCorp/adapt-contrib-objectMatching",
+  "issues": "https://github.com/ExultCorp/adapt-contrib-objectMatching/issues",
+  "repository": "git://github.com/ExultCorp/adapt-contrib-objectMatching.git",
+  "authors": [
+    "Himanshu Rajotia <himanshu.rajotia@exultcorp.com>"
+  ],
+  "description": "Object Matching Template developed by Exult Corporation for Adapt Framework v2.x.x",
+  "main": "/js/adapt-contrib-objectMatching.js",
+  "displayName" : "Object Matching",
+  "component" : "objectMatching",
+  "keywords": [
+    "adapt-plugin",
+    "adapt-component"
+  ],
+  "license": "GPLv3"
+}

@@ -1,0 +1,13 @@
+{
+	"name": "adapt-nav-buttons",
+	"version": "0.8.1",
+	"description": "An extension to display the floating back/next buttons that will navigate (Scroll to) each block on page.",
+	"main": "/js/adapt-nav-buttons.js",
+	"keywords": [
+		"adapt-plugin",
+		"adapt-extension"
+	],
+	"authors": [
+		"Łukasz Grela"
+	]
+}

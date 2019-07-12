@@ -1,0 +1,139 @@
+@flipcard-item-transition: all .4s ease-in-out;
+@flipcard-item-rotate-Y-minus180deg: rotateY(-180deg);
+@flipcard-item-rotate-Y-plus180deg: rotateY(180deg);
+@flipcard-item-rotate-Y-0deg: rotateY(0deg);
+
+.flipcard-component {
+    .flipcard-item {
+        position: relative;
+        /*float: left;*/
+        display: inline-block;
+        width: 33%;
+        height: 430px;
+        color: @item-text-color;
+
+        -webkit-perspective: 600px;
+        -moz-perspective: 600px;
+        -ms-perspective: 600px;
+        -o-perspective: 600px;
+        perspective: 600px;
+
+        html.size-medium &,
+        html.size-small & {
+            width: 100%;
+        }
+
+        .flipcard-item-face {
+            position: absolute;
+            z-index: 110;
+            top: 0;
+            left: 0;
+            float: none;
+            overflow: hidden;
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            cursor: pointer;
+            //border: 1px solid @white;
+            /*background: #009353;
+            box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14),0 1px 5px 0 rgba(0,0,0,0.12),0 3px 1px -2px rgba(0,0,0,0.2);*/
+
+            -webkit-transition: @flipcard-item-transition;
+            -moz-transition: @flipcard-item-transition;
+            -ms-transition: @flipcard-item-transition;
+            -o-transition: @flipcard-item-transition;
+            transition: @flipcard-item-transition;
+
+            -webkit-transform-style: preserve-3d;
+            -moz-transform-style: preserve-3d;
+            -ms-transform-style: preserve-3d;
+            -o-transform-style: preserve-3d;
+            transform-style: preserve-3d;
+
+            -webkit-backface-visibility: hidden;
+            -moz-backface-visibility: hidden;
+            -ms-backface-visibility: hidden;
+            -o-backface-visibility: hidden;
+            backface-visibility: hidden;
+
+            &.flipcard-item-front {
+                -webkit-transform: @flipcard-item-rotate-Y-0deg;
+                -moz-transform: @flipcard-item-rotate-Y-0deg;
+                -ms-transform: @flipcard-item-rotate-Y-0deg;
+                -o-transform: @flipcard-item-rotate-Y-0deg;
+                transform: @flipcard-item-rotate-Y-0deg;
+
+                .flipcard-item-frontImage {
+                    width: 100%;
+                    height: auto;
+                }
+            }
+
+            &.flipcard-item-back {
+                padding: @item-padding;
+
+                -webkit-box-sizing: border-box;
+                -moz-box-sizing: border-box;
+                -ms-box-sizing: border-box;
+                -o-box-sizing: border-box;
+                box-sizing: border-box;
+                 display: flex;
+                display: -moz-flex;
+                display: -ms-flex;
+                display: -webkit-flex;
+                display: -o-flex;
+                justify-content: center;
+                -webkit-justify-content: center;
+                -moz-justify-content: center;
+                -ms-justify-content: center;
+                -webkit-align-items: center;
+                align-items: center;
+                flex-direction:column;
+                    padding:0px 50px;
+
+                -webkit-transform: @flipcard-item-rotate-Y-minus180deg;
+                -moz-transform: @flipcard-item-rotate-Y-minus180deg;
+                -ms-transform: @flipcard-item-rotate-Y-minus180deg;
+                -o-transform: @flipcard-item-rotate-Y-minus180deg;
+                transform: @flipcard-item-rotate-Y-minus180deg;
+            }
+        }
+
+        &.flipcard-flip {
+            .flipcard-item-front {
+                -webkit-transform: @flipcard-item-rotate-Y-plus180deg;
+                -moz-transform: @flipcard-item-rotate-Y-plus180deg;
+                -ms-transform: @flipcard-item-rotate-Y-plus180deg;
+                -o-transform: @flipcard-item-rotate-Y-plus180deg;
+                transform: @flipcard-item-rotate-Y-plus180deg;
+            }
+
+            .flipcard-item-back {
+                overflow-x: hidden;
+                background: #dcdc2c;
+                font-size: 18px;
+                overflow-y: auto;
+                 display: flex;
+                display: -moz-flex;
+                display: -ms-flex;
+                display: -webkit-flex;
+                display: -o-flex;
+                justify-content: center;
+                -webkit-justify-content: center;
+                -moz-justify-content: center;
+                -ms-justify-content: center;
+                -webkit-align-items: center;
+                align-items: center;
+                flex-direction:column;
+                   padding:0px 40px;
+                color: #363636;
+
+                -webkit-transform: @flipcard-item-rotate-Y-0deg;
+                -moz-transform: @flipcard-item-rotate-Y-0deg;
+                -ms-transform: @flipcard-item-rotate-Y-0deg;
+                -o-transform: @flipcard-item-rotate-Y-0deg;
+                transform: @flipcard-item-rotate-Y-0deg;
+            }
+        }
+    }
+}

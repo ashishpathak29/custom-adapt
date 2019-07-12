@@ -1,0 +1,8 @@
+//config.json
+//locked tab 9, enter 13 and space 32
+{
+    "_keyBlocker": {
+        "_isEnabled": true,
+        "keys": [9, 13, 32]
+    }
+}

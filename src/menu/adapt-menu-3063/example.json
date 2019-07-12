@@ -1,0 +1,52 @@
+    {
+        "_id":"co-05",
+        "_parentId":"course",
+        "_type":"page",
+        "_classes":"",
+        "title":"Welcome to Adapt Learning",
+        "displayTitle":"1",
+        "body":"This page contains a working Adapt page with all core bundled components and plugins working.",
+        "_graphic": {
+            "_comment":"over state image",
+            "src": "course/en/images/main-menu/menu-bg-02-over.jpg"
+        }
+    }
+
+//disable menu item
+    {
+        "_id":"co-05",
+        
+        "_isEnabled":false,
+        
+        "_parentId":"course",
+        "_type":"page",
+        "_classes":"",
+        "title":"Welcome to Adapt Learning",
+        "displayTitle":"1",
+        "body":"This page contains a working Adapt page with all core bundled components and plugins working.",
+        "_graphic": {
+            "_comment":"over state image",
+            "src": "course/en/images/main-menu/menu-bg-02-over.jpg"
+        }
+    }
+
+//make menu item enabled conditionally
+    {
+        "_id": "co-10",
+        "_parentId": "course",
+        "_type": "page",
+        "_classes": "",
+        "title": "Communication with Our Competitors",
+        "displayTitle": "2",
+        "body": "Communication with Our Competitors",
+        
+        "unlockCondition":{
+            "_comment":"ONLY contentObject ID's",
+            "complete":["co-05", "co-06"]
+        },
+        
+        "_graphic": {
+            "_comment":"over state image",
+            "src": "course/en/images/main-menu/menu-bg-02-over.jpg"
+        }
+	}

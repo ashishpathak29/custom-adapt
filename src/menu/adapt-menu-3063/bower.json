@@ -1,0 +1,13 @@
+{
+  "name": "adapt-menu-3063",
+  "version": "1.1.1",
+  "framework": "^2.0.0",
+  "displayName": "Menu for project 3063",
+  "menu": "menu-3063",
+  "description": "Menu for project 3063 - based on adapt-contrib-boxMenu",
+  "main": "js/adapt-menu-3063.js",
+  "keywords": [
+    "adapt-plugin",
+    "adapt-menu"
+  ]
+}

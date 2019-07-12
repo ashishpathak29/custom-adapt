@@ -1,0 +1,13 @@
+{
+	"name": "adapt-certificate",
+	"version": "0.5.1",
+	"description": "An extension to display the printable certificate.",
+	"main": "/js/adapt-certificate.js",
+	"keywords": [
+		"adapt-plugin",
+		"adapt-extension"
+	],
+	"authors": [
+		"Łukasz Grela"
+	]
+}

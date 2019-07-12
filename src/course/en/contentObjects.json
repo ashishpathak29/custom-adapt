@@ -1,0 +1,18 @@
+[
+    {
+	"_id": "co-05-01",
+	"_parentId": "course",
+	"_type": "page",
+	"_classes": "content-objectclass",
+	"title": "",
+	"displayTitle": "",
+	"pageBody": "",
+	"body": "<img src='course/en/images/menu-images/menuicon_01.png' /><div class='box-content'><h2>Start Now</h2><h4>Introduction to Marketing<br/>Technology and Mobile</br>Measurement: History<br/>and Background</h4><span class='clock'>xx minutes</span></div>",
+	"linkText": "",
+	"durationLabel": "Duration:",
+	"duration": "3 mins",
+	"_pageLevelProgress": {
+		"_isEnabled": true
+	}
+}
+]

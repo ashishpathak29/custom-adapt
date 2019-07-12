@@ -1,0 +1,38 @@
+.go-next-component {
+    .go-next-button {
+        width: 100%;
+        background: #363636;
+        position: relative;
+        padding:50px 0;
+        &:after{
+            content: "Start Now";
+            display: block;
+            color:#fff;
+            padding: 20px 20px 20px 20px;
+            border-radius: 25px;
+            background: #ff3b2c;
+            position: absolute;
+            top: -30px;
+            left: 50%;
+            margin-left: -30px;
+            box-shadow: 0px 2px 17px rgba(0, 0, 0, 0.3);
+        }
+        &:hover{
+           /* background: #363636 !important;
+            border-color: #363636 !important;*/
+        }
+    }
+
+}
+.block.go-next-block {
+    .block-inner {
+        padding: 0 !important;
+        min-height: 0;//IE
+        min-height: initial;
+        max-width: 100%;//IE
+        max-width: initial;
+    }
+}
+.go-next-hidden {
+    display: none;
+}

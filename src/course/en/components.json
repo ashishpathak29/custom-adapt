@@ -1,0 +1,914 @@
+	[	
+    {
+        "_id": "c-01_00-05-01",
+        "_parentId": "b-01_00-05-01",
+        "_type": "component",
+        "_component": "text",
+         "_isComplete": true,
+        "_classes": "topalign",
+        "_layout": "",
+		"title": "",
+        "displayTitle":"",
+        "body": "<p>Topic 01</p><p>History and Background</p>",
+        "instruction": "",
+        "_pageLevelProgress": {
+            "_isEnabled": false
+        }
+	},
+   {
+        "_id": "c-01_00-05-02",
+        "_parentId": "b-01_00-05-01",
+        "_type": "component",
+        "_component": "graphic",
+        "_classes": "",
+        "_layout": "left",
+        "_isComplete": true,
+		"title": "History and Background",		
+        "displayTitle": "<h3 class='custom_heading'></h3>",
+        "body": "",
+        "instruction": "",
+		
+        "_pageLevelProgress": {
+            "_isEnabled": false
+        }
+  },
+    
+    {
+        "_id": "c-01_00-05-03_01",
+        "_parentId": "b-01_00-05-02",
+        "_type": "component",
+        "_component": "text",
+        "_classes": "topalign",
+		 "_layout": "left",
+		"title": "Introduction",
+        "displayTitle":"<h3 class='custom_heading purple'> Introduction </h3><p class='custom-numer'>(2 out of 15) </p>",
+        "body": "<div><ul class='customUl'><li>In this topic, you’ll learn about:</li><li>The shift from desktop to mobile</li><li>The challenges of mobile data measurement</li><li>Organic vs. non-organic traffic</li><li>Mobile marketing trends</li></ul></div>",
+        "instruction": "",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+	},
+    
+    {
+       "_id": "c-01_00-05-03",
+        "_parentId": "b-01_00-05-02",
+        "_type": "component",
+        "_component": "graphic",
+        "_classes": "",
+        "_layout": "right",
+		 "_isComplete": true,
+		"title": "Introduction",
+        "displayTitle": "",
+        "body": "",
+        "instruction": "",
+		"_graphic": {
+            "large": "course/en/images/mod-1/intro_img01.png",
+            "small": "course/en/images/mod-1/intro_img01.png",
+            "alt": ""
+        },
+        "_pageLevelProgress": {
+                "_isEnabled": false
+            }
+    },
+    
+    
+    
+    {
+        "_id": "c-01_00-05-55",
+        "_parentId": "b-01_00-05-50",
+        "_type": "component",
+        "_component": "text",
+        "_classes": "",
+        "_layout": "left",
+		"title": "Meet Max",
+        "displayTitle":"<h3 class='custom_heading'>Meet Max</h3><p class='custom-numer'>(1 out of 15) </p>",
+        "body": "<p>Max is a marketer, working at an <span class='word-nowrap'>e-commerce</span> company based in London. </p><p>He's preparing to start his first mobile marketing campaign.</p><p>His good friend Anna is never too far to give him a helping hand with the challenges he faces along the way.</p>",
+        "instruction": "",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+	},
+
+	{
+       "_id": "c-01_00-05-50",
+        "_parentId": "b-01_00-05-50",
+        "_type": "component",
+        "_component": "graphic",
+        "_classes": "",
+        "_layout": "right",
+		"title": "Meet Max",		
+        "displayTitle": "",
+		 "_isComplete": true,
+        "body": "",
+        "instruction": "",
+		"_graphic": {
+            "large": "course/en/images/mod-1/meetmax_img.png",
+            "small": "course/en/images/mod-1/meetmax_img.png",
+            "alt": ""
+        },
+        "_pageLevelProgress": {
+                "_isEnabled": false
+				}
+		},	
+  
+    {
+         "_id": "c-01_00-05-60",
+        "_parentId": "b-01_00-05-60",
+        "_type": "component",
+        "_component": "customNarrative",
+        "_classes": "",
+        "_layout": "full",
+        "_comment": "setCompletionOn = inview | allItems",
+        "_setCompletionOn": "allItems",
+        "_hasNavigationInTextArea": false,
+        "title": "Getting Started with Mobile Marketing",
+        "displayTitle": "<h3 class='custom_heading lightgreen'><b>Getting Started with Mobile Marketing</b></h3><p class='custom-numer'>(3 out of 15) </p>",
+        "body": "<p>Max is reaching out to Anna for help setting up his first mobile app campaign.</p><div class='instruction_txt'><i>Select the arrow to view their conversation.</i></div>",
+        "mobileInstruction": "<p><div class='instruction_txt'>Select the arrow followed by the plus icon to find out more.</div>",
+		
+        "_items": [
+            {
+                "title": "",
+                "body": "<p>I'm looking to run an app install campaign with various networks, but I'm on a tight budget. I'd like to be able to identify users, but I've been told cookies aren't supported in mobile.</p>",
+                "_graphic": {
+                    "src": "course/en/images/menu-images/wbt1_T1P11_02.jpg",
+                    "alt": ""
+                },
+				
+                "strapline": "Select the + icon."
+            },
+             {
+                "title": "",
+               "body": "<p>Don't worry, Max, it's not an issue. Let's start by going over the mobile ecosystem and the shift from desktop to mobile.</p>",
+                "_graphic": {
+                    "src": "course/en/images/menu-images/wbt1_T1P11_04.jpg",
+                    "alt": ""
+                },
+				
+                "strapline": "Select the + icon."
+            }
+    ],
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+  },
+		
+		
+		
+		
+    {
+    "_id": "c-01_00-05-65",
+    "_parentId": "b-01_00-05-65",
+    "_type": "component",
+    "_component": "media",
+    "_classes": "custom-width",
+    "_layout": "full",
+    "_setCompletionOn":"ended",
+    "_useClosedCaptions": false,
+    "_allowFullScreen": true,
+    "title": "Mobile App Ecosystem: The Big Picture",
+    "alwaysShowControls":"false",
+    "clickToPlayPause": "false",
+    "displayTitle": "<h3 class='custom_heading midgreen'>Mobile App Ecosystem: The Big Picture</h3><p class='custom-numer'>(4 out of 15)</p>",
+    "body": "<p>The methods used to measure campaigns in desktop cannot be used in mobile apps.</p><p>In this animation, you’ll learn how the use of cookies, which measured marketing campaign performance, was replaced with different methods.</p>",
+    "instruction": "<div class='instruction_txt'><i>Select the <b>Play</b> button to view the animation.</i></div>",
+    "_media": {
+        "mp4": "course/en/video/topic01_page04_animation.mp4",
+        "poster": "course/en/video/posterImg.jpg",
+        "autoplay":"true"
+    },
+     "_transcript": {
+            "_inlineTranscript": true,
+            "_externalTranscript": false,
+            "inlineTranscriptButton": "Transcript",
+            "inlineTranscriptCloseButton": "Close Transcript",
+            "inlineTranscriptBody": "<p>In the pre-mobile era, marketers relied on cookies to measure how users interacted with their brands on desktop devices. Cookies allowed marketers to improve their targeting and marketing strategy.</p><p>With the emergence of mobile, cookies have become ineffective because they do not always work within mobile apps, are not supported by Apple’s Safari browser, and don’t function consistently across all smart phones and tablets. As a result, relying solely on cookies, prevents apps from identifying a large portion of users on mobile.</p><p>New methods have been developed to replace cookies and fill the measurement gap in mobile including Device Identifiers, Google Play Referrers, and Fingerprinting.</p><p>However, the fact that there are now multiple identifiers, in addition to various platforms, different environments and numerous devices, has also created its own set of challenges. Namely, working in a complex and highly fragmented space.</p><p>So, what does an advertiser do? Is it possible to run targeted and personalized advertising campaigns under these conditions? The answer is yes.</p><p>There are now robust technologies that overcome these challenges to accurately measure mobile at scale.</p>",
+            "transcriptLinkButton": "Transcript",
+            "transcriptLink": ""
+        },
+
+    "_pageLevelProgress": {
+        "_isEnabled": true
+    }
+},
+
+{
+    "_id": "c-01_00-05-04-01",
+   "_parentId": "b-01_00-05-03-01",
+    "_type": "component",
+   "_component": "mcq",
+   "_classes": "mcqBG",
+   "_layout": "left",
+   "_attempts": 1,
+   "_questionWeight": 1,
+   "_shouldDisplayAttempts": false,
+   "_canShowFeedback": true,
+   "_canShowModelAnswer": false,
+   "_canShowMarking": true,
+   "_isRandom": false,
+   "_selectable": 1,
+   "_feedBox":"",
+   "title": "Knowledge Check",
+   "displayTitle": "<h3 class='custom_heading'><b>Knowledge Check</b></h3><p class='custom-numer'>(5 out of 15) </p>",
+   "body": "<p>Based on the above video, it is safe to say that marketers cannot rely on cookies for mobile marketing measurement.</p>",
+   "instruction": "<div class='instruction_txt'>Choose the correct answer and then select <b>Submit</b>.</div>",
+   "_items": [
+       {
+           "text": "True",
+           "_shouldBeSelected": true
+       },
+       {
+           "text": "False",
+           "_shouldBeSelected": false
+       }
+   ],
+   "_feedback": {
+       "correct": "<div class='correct_img'><span>Good job!</span></div><p>While cookies are the main measurement method for user behavior on desktop devices, they are not supported to the same extent on mobile. Hence, marketers cannot rely on cookies for mobile marketing measurement and need to use alternative methods.</p>",
+       "_incorrect": {
+           "notFinal": "<div class='incorrect_img'><span>Nice attempt.</span></div><p>The correct answer is True. While cookies are the main measurement method for user behavior on desktop devices, they are not supported to the same extent on mobile. Hence, marketers cannot rely on cookies for mobile marketing measurement and need to use alternative methods.</p>",
+           "final": "<div class='incorrect_img'><span>Nice attempt.</span></div><p>The correct answer is True. While cookies are the main measurement method for user behavior on desktop devices, they are not supported to the same extent on mobile. Hence, marketers cannot rely on cookies for mobile marketing measurement and need to use alternative methods.</p>"
+       },
+       "_partlyCorrect": {
+           "notFinal": "<div class='incorrect_img'><span>Nice attempt.</span></div><p>The correct answer is True. While cookies are the main measurement method for user behavior on desktop devices, they are not supported to the same extent on mobile. Hence, marketers cannot rely on cookies for mobile marketing measurement and need to use alternative methods.</p>",
+           "final": "<div class='incorrect_img'><span>Nice attempt.</span></div><p>The correct answer is True. While cookies are the main measurement method for user behavior on desktop devices, they are not supported to the same extent on mobile. Hence, marketers cannot rely on cookies for mobile marketing measurement and need to use alternative methods.</p>"
+       }
+   },
+   "_pageLevelProgress": {
+       "_isEnabled": true
+   }
+},
+{
+    "_id": "c-01_00-05-04-d-01-05",
+    "_parentId": "b-01_00-05-03-01",
+    "_type": "component",
+    "_component": "graphic",
+    "_classes": "",
+    "_layout": "right",
+    "_isComplete": true,
+    "title": "",		
+    "displayTitle": "",
+    "body": "",
+    "instruction": "",
+    "_graphic": {
+        "large": "course/en/images/mod-1/CYU_Graphic_ (1).png",
+        "small": "course/en/images/mod-1/CYU_Graphic_ (1).png",
+        "alt": ""
+    },
+    "_pageLevelProgress": {
+        "_isEnabled": false
+    }
+},
+
+    {
+       "_id": "c-01_00-05-04-a",
+        "_parentId": "b-01_00-05-03-a",
+        "_classes": "hotgraphic-popclass",
+        "_type": "component",
+        "_component": "hotgraphic",
+        "_layout": "full",
+        "title": "Advertising Campaigns: From Desktop to Mobile",
+        "displayTitle": "<h3 class='custom_heading'>Advertising Campaigns: From Desktop to Mobile</h3><p class='custom-numer'>(6 out of 15) </p>",
+        "body": "<p>It wasn’t that long ago when desktop was the dominant environment for transactions, such as online shopping and banking. </p>",
+        "mobileBody": "",
+        "instruction": "<div class='instruction_txt'><i>Select each of the numbers to learn about the shift from a desktop to a mobile ecosystem.</i></div>",
+        "mobileInstruction": "<div class='instruction_txt'><i>Select the arrows followed by the plus icon to find out more.</i></div>",
+        "_setCompletionOn": "allItems",
+        "_useGraphicsAsPins": false,
+        "_canCycleThroughPagination": true,
+        "_hidePagination": false,
+        "_graphic": {
+            "src": "course/en/images/mod-1/img001.png",
+            "title": ""
+        },
+        "_items": [
+            {
+                "title": "<div class='h5'><span>1</span>Contextual Advertising</div> ",
+               "body": "<p class='heading-hotgraphics'><b>Contextual Advertising </b></p><p>The dominant targeting model in the years of online advertising, allowing advertisers to target specific users based on:</p><ul><li> Their browsing behavior, for example, displaying ads for a financial product in a financial website</li><li>What they were searching for in different search engines</li></ul>",
+    
+                "_itemImage": "",
+                "_itemImageHover": "",
+                "_graphic": {
+                    "src": "course/en/images/mod-1/hotspot1popup.png",
+                    "title": "",
+                    "_classes": "",
+                    "imgName":"",
+                    "imgText":""
+                },
+				
+                "pinAlt": "alt text",
+                "strapline": "Contextual Advertising",
+                "_classes": "showText",
+                "_top": 19,
+                "_left": 14
+			},
+            {
+                "title": "<div class='h5'><span>2</span>Personalized Advertising</div>",
+                "body": "<p class='heading-hotgraphics'><b>Personalized Advertising</b></p><p class='hot-instrunction'>Personalized advertising was made possible by the use of cookies. Cookies are used by adding a small piece of code (tag) to a website, allowing advertisers to:</p><ul><li> Anonymously track users or their devices across different websites</li><li> Build a profile of individual users based on their browsing habits</li><li> Target users by creating messaging relative to their interests </li></ul><p>This, however, also led to a period of bad practices such as cookie bombing and constant retargeting.</p>",
+                "_itemImage": "",
+                "_itemImageHover": "",
+                "_graphic": {
+                    "src": "course/en/images/mod-1/hotspot2popup.png",
+                    "title": "",
+                    "_classes": "",
+                    "imgName":"",
+                    "imgText":""
+                },
+                "pinAlt": "alt text",
+                "strapline": "Personalized Advertising",
+                "_classes": "showText",
+                "_top": 19,
+                "_left": 15
+			},
+            {
+                "title": "<div class='h5'><span>3</span>Mobile Revolution</div> ",
+                "body": "<p class='heading-hotgraphics'><b>Mobile Revolution</b></p><p>Mobiles have revolutionized the way consumers live, socialize, work, play, and shop.</p><p>It’s therefore no surprise that mobile has become commonplace throughout the purchase funnel. Marketers are preparing to meet this reality. </p>",
+                "_itemImage": "",
+                "_itemImageHover": "",
+                "_graphic": {
+                    "src": "course/en/images/mod-1/hotspot3popup.png",
+                    "title": "",
+                    "_classes": "",
+                    "imgName":"",
+                    "imgText":""
+                },
+                "pinAlt": "alt text",
+                "strapline": "Mobile Revolution",
+                "_classes": "showText",
+                "_top": 40,
+                "_left": 40
+			},
+            {
+                "title": "<div class='h5'><span>4</span>Mobile Consumerism</div>",
+                "body": "<p class='heading-hotgraphics'><b>Mobile Consumerism</b></p><p>The landscape of mobile consumerism continues to grow and evolve. The impact of the purchase funnel can already be seen in the way people currently perform their daily transactions using mobile devices over desktop.</p>",
+                "_itemImage": "",
+                "_itemImageHover": "",
+                "_graphic": {
+                    "src": "course/en/images/mod-1/hotspot4popup.png",
+                    "title": "",
+                    "_classes": "",
+                    "imgName":"",
+                    "imgText":""
+                },
+                "pinAlt": "alt text",
+                "strapline": "Mobile Consumerism",
+                "_classes": "showText",
+                "_top": 60,
+                "_left": 60
+			}
+        ],
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+	},
+    
+    {
+    "_id":"c-01_00-05-04-c",
+    "_parentId":"b-01_00-05-03-c",
+   "_type": "component",
+   "_component": "accordion",
+   "_classes": "",
+   "_layout": "left",
+   "title": "What are the Challenges?",
+   "displayTitle": "<h3 class='custom_heading'>What are the Challenges?</h3><p class='custom-numer'>(7 out of 15) </p>",
+   "body": "<p>Max is learning that mobile advertising is set for further growth, but this comes with additional challenges.</p>",
+   "instruction": "<i>Select the headings to find out more.</i>",
+   "_items": [
+       
+       {
+           "title": "Limited Cookies in Mobile",
+           "body": "<div class='accordion-content'><p class='hot-instrunction'>Cookies are extremely limited in mobile:</p><ul><li>They aren’t supported in mobile apps in a way that can be used for measurement</li><li>They are limited on Apple’s Safari browser<ul><li>iOS 11’s Intelligent Tracking Prevention (ITP) prevents cookies from tracking users 24 hours after they've first interacted with the site</li><li>Apple removes first party cookies after 30 days</li></ul></li></ul></div>",
+           "_classes": ""
+       },
+       
+       
+       {
+           "title": "Fragmentation",
+           "body": "<div class='accordion-content'><p class='hot-instrunction'>Mobile offers tremendous opportunities and is the most measurable ecosystem ever created. But it has also introduced measurement challenges due to its inherent fragmentation across different: </p><ul><li class='margin-class'><b>Operating systems</b>, such as iOS, Android, and Windows Phone</li><li class='margin-class'><b>Environments</b>, such as in-app and mobile web</li><li class='margin-class'><b>Identifiers</b>, such as Apple’s IDFA, Google Advertising ID, and Google Play Referrer</li></ul></div>",
+           "_classes": ""
+       },
+       {
+           "title": "Different Methods of Measurement",
+           "body": "<div class='accordion-content'><p class='hot-instrunction'>The good news is that mobile apps have accurate deterministic identifier options like <b>Device ID Matching</b> and <b>Google Play Referrer</b>.</p><ul><li class='margin-class'> Device IDs are much more persistent than cookies because they can only be changed by the user actively resetting the ID</li><li class='margin-class'>When the Device ID or Google Play Referrer is not available, a probabilistic <b>Fingerprinting</b> solution is applied, which is very accurate over short time frames</li></ul><p class='custom-pack'>We will discuss these methods in more detail throughout the course.</p></div>",
+           "_classes": ""
+       }
+   ],
+   "_pageLevelProgress": {
+       "_isEnabled": true
+   }
+},
+    
+     {
+         "_id": "c-01_00-05-04",
+        "_parentId": "b-01_00-05-03",
+         "_type": "component",
+        "_component": "mcq",
+        "_classes": "mcqBG",
+        "_layout": "left",
+        "_attempts": 1,
+        "_questionWeight": 1,
+        "_shouldDisplayAttempts": false,
+        "_canShowFeedback": true,
+        "_canShowModelAnswer": false,
+        "_canShowMarking": true,
+        "_isRandom": false,
+        "_selectable": 1,
+        "_feedBox":"",
+        "title": "Knowledge Check",
+        "displayTitle": "<h3 class='custom_heading'><b>Knowledge Check</b></h3><p class='custom-numer'>(8 out of 15) </p>",
+        "body": "<p>Mobile has introduced new measurement challenges due to:</p>",
+        "instruction": "<div class='instruction_txt'>Choose the correct answer and then select <b>Submit</b>.</div>",
+        "_items": [
+            {
+                "text": "Fragmentation across different operating systems",
+                "_shouldBeSelected": false
+			},
+            {
+                "text": "Fragmentation across different environments, such as in-app user behavior and mobile web",
+                "_shouldBeSelected": false
+			},
+            {
+                "text": "Limited ability to use cookies in mobile",
+                "_shouldBeSelected": false
+			},
+           {
+                "text": "All of the above",
+                "_shouldBeSelected": true
+			}
+		],
+        "_feedback": {
+            "correct": "<div class='correct_img'><span>Good job!</span></div><p>The mobile ecosystem has introduced new measurement challenges due to its inherent fragmentation across different operating systems and environments, and cookies being limited in mobile.</p>",
+            "_incorrect": {
+                "notFinal": "<div class='incorrect_img'><span>Nice attempt.</span></div><p>The correct answer is all of the above. The mobile ecosystem has introduced new measurement challenges due to its inherent fragmentation across different operating systems and environments, and cookies being limited in mobile.</p>",
+                "final": "<div class='incorrect_img'><span>Nice attempt.</span></div><p>The correct answer is all of the above. The mobile ecosystem has introduced new measurement challenges due to its inherent fragmentation across different operating systems and environments, and cookies being limited in mobile.</p>"
+            },
+            "_partlyCorrect": {
+                "notFinal": "<div class='incorrect_img'><span>Nice attempt.</span></div><p>The correct answer is all of the above. The mobile ecosystem has introduced new measurement challenges due to its inherent fragmentation across different operating systems and environments, and cookies being limited in mobile.</p>",
+                "final": "<div class='incorrect_img'><span>Nice attempt.</span></div><p>The correct answer is all of the above. The mobile ecosystem has introduced new measurement challenges due to its inherent fragmentation across different operating systems and environments, and cookies being limited in mobile.</p>"
+            }
+        },
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+	},
+    
+     
+    {
+        "_id": "c-01_00-05-04-d-01",
+        "_parentId": "b-01_00-05-03",
+        "_type": "component",
+        "_component": "graphic",
+        "_classes": "",
+        "_layout": "right",
+        "_isComplete": true,
+		"title": "",		
+        "displayTitle": "",
+        "body": "",
+        "instruction": "",
+		"_graphic": {
+            "large": "course/en/images/mod-1/CYU_Graphic_ (3).png",
+            "small": "course/en/images/mod-1/CYU_Graphic_ (3).png",
+            "alt": ""
+        },
+        "_pageLevelProgress": {
+            "_isEnabled": false
+        }
+  },
+    
+    
+    {
+        "_id": "c-01_00-05-04-d",
+        "_parentId": "b-01_00-05-03-c",
+        "_type": "component",
+        "_component": "graphic",
+        "_classes": "",
+        "_layout": "right",
+        "_isComplete": true,
+		"title": "",		
+        "displayTitle": "",
+        "body": "",
+        "instruction": "",
+		"_graphic": {
+            "large": "course/en/images/mod-1/male_front0013.png",
+            "small": "course/en/images/mod-1/male_front0013.png",
+            "alt": ""
+        },
+        "_pageLevelProgress": {
+            "_isEnabled": false
+        }
+  },
+    
+    {
+    "_id":"c-01_00-05-08-a",
+    "_parentId":"b-01_00-05-08",
+   "_type": "component",
+   "_component": "accordion",
+   "_classes": "",
+   "_layout": "left",
+   "title": "Broken App Discovery",
+   "displayTitle": "<h3 class='custom_heading'>Broken App Discovery</h3><p class='custom-numer'>(9 out of 15) </p>",
+   "body": "<p>In addition to the challenges in measurement, mobile faces another challenge – getting apps discovered amongst the millions of apps in the app stores. This is known as ‘broken app discovery.’</p><p>To overcome the broken app discovery challenge, marketers must target users across as many channels as possible. Here are some of these channels.</p>",
+   "instruction": "<i>Select the headings to find out more.</i>",
+   "_items": [
+           {
+               "title": "Paid Advertising",
+               "body": "<div class='accordion-content'><p>In paid advertising, marketers pay the owner of ad space in exchange for use of that space. It includes any type of advertising that needs to be paid for, as opposed to owned or earned advertising. </p><p>An example would be Uber placing an ad in a magazine, billboard, a website, or in a different app.</p></div>",
+               "_classes": ""
+           },
+           {
+               "title": "Owned Media",
+               "body": "<div class='accordion-content'><p>Owned media is an asset under companies' direct control, mainly email and push notifications, in addition to its own web sites, catalogs, and blogs.</p><p>For example, Uber offering 20% off on the next three rides to their US customers in their monthly newsletter.</p></div>",
+               "_classes": ""
+           },
+           {
+               "title": "Earned Media",
+               "body": "<div class='accordion-content'><p>Earned media (or free media) refers to publicity gained through promotional efforts other than paid media advertising, namely media coverage.</p><p>For example, an article in the New York Times about Uber’s latest progress in building an autonomous car.</p><p>Social media is usually treated as both owned and earned.</p></div>",
+               "_classes": ""
+           },
+           {
+               "title": "Influencer Marketing",
+               "body": "<div class='accordion-content'><p>Influencer marketing (also influence marketing) is a form of marketing through influential people rather than targeting the market as a whole.</p><p>It identifies the individuals that have influence over potential buyers, and orients marketing activities around these influencers.</p><p>For example, Uber paying Michael Jordan to feature in a video praising Uber (directly or indirectly) and then publishing it to millions of his followers on his private YouTube channel.</p></div>",
+               "_classes": ""
+           }
+       ],
+       "_pageLevelProgress": {
+           "_isEnabled": true
+       }
+    },
+    
+    {
+        "_id": "c-01_00-05-08-b",
+        "_parentId": "b-01_00-05-08",
+        "_type": "component",
+        "_component": "graphic",
+        "_classes": "",
+        "_layout": "right",
+        "_isComplete": true,
+		"title": "",		
+        "displayTitle": "",
+        "body": "",
+        "instruction": "",
+		"_graphic": {
+            "large": "course/en/images/mod-1/01_page08Img.png",
+            "small": "course/en/images/mod-1/01_page08Img.png",
+            "alt": ""
+        },
+        "_pageLevelProgress": {
+            "_isEnabled": false
+        }
+  },
+	
+	{
+       "_id": "c-01_00-05-08-c",
+        "_parentId": "b-01_00-05-08-01",
+        "_type": "component",
+        "_component": "text",
+        "_classes": "custom-board",
+        "_layout": "full",
+		"title": "Organic and Non-Organic: Key Terms",
+        "displayTitle":"<h3 class='custom_heading'>Organic and Non-Organic: Key Terms</h3><p class='custom-numer'>(10 out of 15) </p>",
+        "body": "<p>‘Traffic’ and ‘installs’ are probably terms you are familiar with, but did you know, that these can be broken down into two types?</p><p>Here are some key terms you should know before moving on.</p><h4>Organic Installs </h4><p>These are app installs that occur without any direct, measurable activity by a marketer to acquire the user through paid or owned campaigns.</p><h4>Non-Organic Installs</h4><p>These are usually a result of paid efforts, for example an ad, or owned media, such as email or push notifications.</p><h4>The Organic Multiplier</h4><p>The organic multiplier is a ratio between organic and non-organic installs that is used by marketers to determine how many organic installs they would receive following a paid campaign. In theory, the idea is that the app will get more awareness through word-of-mouth.</p> ",
+        "instruction": "",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+	},
+	
+	
+{
+    "_id": "c-01_00-05-08-d",
+   "_parentId": "b-01_00-05-08-02",
+    "_type": "component",
+   "_component": "mcq",
+   "_classes": "mcqBG",
+   "_layout": "left",
+   "_attempts": 1,
+   "_questionWeight": 1,
+   "_shouldDisplayAttempts": false,
+   "_canShowFeedback": true,
+   "_canShowModelAnswer": false,
+   "_canShowMarking": true,
+   "_isRandom": false,
+   "_selectable": 1,
+   "_feedBox":"",
+   "title": "Knowledge Check",
+   "displayTitle": "<h3 class='custom_heading'><b>Knowledge Check</b></h3><p class='custom-numer'>(11 out of 15) </p>",
+   "body": "<p>Broken app discovery refers to:</p>",
+   "instruction": "<div class='instruction_txt'>Choose the correct answer and then select <b>Submit</b>.</div>",
+   "_items": [
+       {
+           "text": "App marketers finding it difficult to discover new target groups for their apps",
+           "_shouldBeSelected": false
+       },
+       {
+           "text": "App marketers' challenge in getting their apps discoverable in the app stores",
+           "_shouldBeSelected": true
+       },
+       {
+           "text": "The broken process of getting apps registered in the app stores",
+           "_shouldBeSelected": false
+       },
+       {
+           "text": "The challenge of enlisting apps across multiple app stores in order to get discovered",
+           "_shouldBeSelected": false
+       }
+   ],
+   "_feedback": {
+       "correct": "<div class='correct_img'><span>Good job!</span></div><p>The broken app discovery issue refers to the challenge that app marketers face in getting their apps easily discoverable by users in the app stores.</p>",
+       "_incorrect": {
+           "notFinal": "<div class='incorrect_img'><span>Nice attempt.</span></div><p>The correct answer is app marketers’ challenge in getting their apps discoverable in the app store. The broken app discovery issue refers to the challenge that app marketers face in getting their apps easily discoverable by users in the app stores.</p>",
+           "final": "<div class='incorrect_img'><span>Nice attempt.</span></div><p>The correct answer is app marketers’ challenge in getting their apps discoverable in the app store. The broken app discovery issue refers to the challenge that app marketers face in getting their apps easily discoverable by users in the app stores.</p>"
+       },
+       "_partlyCorrect": {
+           "notFinal": "<div class='incorrect_img'><span>Nice attempt.</span></div><p>The correct answer is app marketers’ challenge in getting their apps discoverable in the app store. The broken app discovery issue refers to the challenge that app marketers face in getting their apps easily discoverable by users in the app stores.</p>",
+           "final": "<div class='incorrect_img'><span>Nice attempt.</span></div><p>The correct answer is app marketers’ challenge in getting their apps discoverable in the app store. The broken app discovery issue refers to the challenge that app marketers face in getting their apps easily discoverable by users in the app stores.</p>"
+       }
+   },
+   "_pageLevelProgress": {
+       "_isEnabled": true
+   }
+},
+{
+    "_id": "c-01_00-05-08-d-05",
+    "_parentId": "b-01_00-05-08-02",
+    "_type": "component",
+    "_component": "graphic",
+    "_classes": "",
+    "_layout": "right",
+    "_isComplete": true,
+    "title": "",		
+    "displayTitle": "",
+    "body": "",
+    "instruction": "",
+    "_graphic": {
+        "large": "course/en/images/mod-1/CYU_Graphic_ (3).png",
+        "small": "course/en/images/mod-1/CYU_Graphic_ (3).png",
+        "alt": ""
+    },
+    "_pageLevelProgress": {
+        "_isEnabled": false
+    }
+},
+
+   
+    {
+         "_id": "c-01_00-05-60-01",
+      "_parentId": "b-01_00-05-60-01",
+        "_type": "component",
+        "_component": "customNarrative",
+        "_classes": "",
+        "_layout": "full",
+        "_comment": "setCompletionOn = inview | allItems",
+        "_setCompletionOn": "allItems",
+        "_hasNavigationInTextArea": false,
+        "title": "Building Organic Traffic",
+        "displayTitle": "<h3 class='custom_heading lightgreen'><b>Building Organic Traffic</b></h3><p class='custom-numer'>(12 out of 15) </p>",
+        "body": "<p>Max and Anna discuss the challenge of broken app discovery.</p><div class='instruction_txt'><i>Select the arrow to view their conversation.</i></div>",
+        "mobileInstruction": "<p><div class='instruction_txt'>Select <b>Play</b> to listen to their conversation.</div>",
+		
+        "_items": [
+            {
+                "title": "",
+                "body": "<p>How can I overcome the challenge of broken app discovery and get my app noticed?</p>",
+                "_graphic": {
+                    "src": "course/en/images/menu-images/wbt1_T1P11_02.jpg",
+                    "alt": ""
+                },
+				
+                "strapline": "Select the + icon."
+            },
+             {
+                "title": "",
+               "body": "<p>There's no magic solution. You will need to work harder to generate more organic installs and find other advertising channels.</p>",
+                "_graphic": {
+                    "src": "course/en/images/menu-images/wbt1_T1P11_04.jpg",
+                    "alt": ""
+                },
+				
+                "strapline": "Select the + icon."
+            },
+             {
+                "title": "",
+               "body": "<p>Other channels? Such as?</p>",
+                "_graphic": {
+                    "src": "course/en/images/menu-images/wbt1_T1P11_03.jpg",
+                    "alt": ""
+                },
+				
+                "strapline": "Select the + icon."
+            },
+             {
+                "title": "",
+               "body": "<p>Let's discuss this in more detail.</p>",
+                "_graphic": {
+                    "src": "course/en/images/menu-images/wbt1_T1P11_04.jpg",
+                    "alt": ""
+                },
+				
+                "strapline": "Select the + icon."
+            }
+    ],
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+  },
+   
+    {
+       "_id": "c-01_00-05-10-a",
+        "_parentId": "b-01_00-05-10-a",
+        "_type": "component",
+        "_component": "media",
+        "_classes": "custom-width",
+        "_layout": "full",
+        "_setCompletionOn":"ended",
+        "_useClosedCaptions": false,
+        "_allowFullScreen": true,
+        "alwaysShowControls":"false",
+        "clickToPlayPause": "false",
+        "title": "Organic App Discovery and the Transformation of Non-Organic Traffic",
+        "displayTitle":"<h3 class='custom_heading midgreen'><b>Organic App Discovery and the Transformation of Non-Organic Traffic</b></h3><p class='custom-numer'>(13 out of 15) </p>",
+        "body": "<p>As Max is finding out, boosting organic traffic is not going to be as easy as it used to be. <br/>But, what is the reason for the organic decline and in turn, an increase in non-organic installs?</p>",
+        "instruction": "<i>Select the <b>Play</b> button to view the animation.</i>",
+        "_media": {
+            "mp4": "course/en/video/topic01_page10_animation.mp4",
+            "poster": "course/en/video/posterImg1.jpg"
+        },
+        "_transcript": {
+            "_inlineTranscript": true,
+            "_externalTranscript": false,
+            "inlineTranscriptButton": "Transcript",
+            "inlineTranscriptCloseButton": "Close Transcript",
+            "inlineTranscriptBody": "<p>There has been a decline in the organic multiplier over recent years.</p><p>This has come about due to the millions of apps in the app store, making it difficult for apps to stand out amongst the rest.</p><p>The app store algorithms give more weight to post-install  app engagement at the expense of pure volume. This means your ability to drive scale organically is now more limited, as well as your control over the flow of users.</p><p>In an attempt to help apps overcome this challenge, both app stores recently redesigned their marketplaces giving more weight to editorial content of apps and how they get discovered.<br/>But this has actually made things more challenging for app developers and marketers; consequently, leading to a decline in organic installs in both app stores since this redesign.</p><p>While organic installs are declining, non-organic installs are on the rise.</p><p>Due to the challenges in boosting users organically, marketers are coming to terms with <span class='word-nowrap'>non-organic</span> users no longer being simply a means to an end – they are the end.</p><p>Unlike organic traffic, marketers are able to control the scale of non-organic traffic, with the main challenge being a limited budget. You can use measurement and advanced analytics to identify the sources that delivered the highest quality users for KPIs such as, engagement, revenue, or return on investment.</p><p>So, to reach your goals, make sure your marketing strategy aims for both organic and non-organic users.</p>",
+            "transcriptLinkButton": "Transcript",
+            "transcriptLink": ""
+        },
+
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+		{
+         "_id": "c-01_00-05-60-02",
+        "_parentId": "b-01_00-05-60-02",
+        "_type": "component",
+        "_component": "customNarrative",
+        "_classes": "",
+        "_layout": "full",
+        "_comment": "setCompletionOn = inview | allItems",
+        "_setCompletionOn": "allItems",
+        "_hasNavigationInTextArea": false,
+        "title": "Organic vs. Non-Organic",
+        "displayTitle": "<h3 class='custom_heading lightgreen'><b>Organic vs. Non-Organic</b></h3><p class='custom-numer'>(14 out of 15) </p>",
+        "body": "<p>After learning about organic vs. non-organic traffic and trends, Max has some questions for Anna. </p><div class='instruction_txt'><i>Select the arrow to view their conversation.</i></div>",
+        "mobileInstruction": "<div class='instruction_txt'><i>Select the arrow to view their conversation.</i></div>",
+		
+        "_items": [
+            {
+                "title": "",
+                "body": "<p>So, it looks like I should be focusing on non-organic installs, but can I just rely on non-organic users?</p>",
+                "_graphic": {
+                    "src": "course/en/images/menu-images/wbt1_T1P11_02.jpg",
+                    "alt": ""
+                },
+				
+                "strapline": "Select the + icon."
+            },
+             {
+                "title": "",
+               "body": "<p>Unfortunately not. The cost of media is rising due to high competition between apps.</p><p>As a result, most apps will find it difficult to make a profit relying only on non-organic users.</p>",
+                "_graphic": {
+                    "src": "course/en/images/menu-images/wbt1_T1P11_04.jpg",
+                    "alt": ""
+                },
+				
+                "strapline": "Select the + icon."
+            },
+             {
+                "title": "",
+               "body": "<p>So, I need a mix of both, organic and non-organic?</p>",
+                "_graphic": {
+                    "src": "course/en/images/menu-images/wbt1_T1P11_03.jpg",
+                    "alt": ""
+                },
+				
+                "strapline": "Select the + icon."
+            },
+             {
+                "title": "",
+               "body": "<p>Yes. Ultimately, you need top quality organic users, even if their numbers are dropping. Every fraction of an organic user is important because it will reduce the effective cost of paid users and drive profits.</p>",
+                "_graphic": {
+                    "src": "course/en/images/menu-images/wbt1_T1P11_04.jpg",
+                    "alt": ""
+                },
+				
+                "strapline": "Select the + icon."
+            }
+    ],
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+  },
+    
+    {
+    "_id": "c-01_00-05-12-a",
+    "_parentId": "b-01_00-05-12-a",
+    "_classes": "mcq-customstyle",
+    "_layout": "full",
+    "_type": "component",
+    "_component": "matching",
+	 "_feedBox":"", 
+    "_attempts": 1,
+    "_shouldDisplayAttempts": false,
+    "_isRandom": true,
+    "_canShowModelAnswer": false,
+    "_recordInteraction": true,
+    "_questionWeight": 1,
+    "title": "Knowledge Check",
+     "displayTitle": "<h3 class='custom_heading'><b>Knowledge Check </b></h3><p class='custom-numer'>(15 out of 15) </p>",
+     "body": "<p>Can you remember the difference between organic and non-organic installs? </p>",
+    "instruction":"<div class='instruction_txt'><i>Choose an option from the drop-down list and select <b>Submit</b>.</i></div>",
+    "_buttons": {
+      "_submit": {
+        "buttonText": "Submit",
+        "ariaLabel": "Submit"
+      },
+      "_reset": {
+        "buttonText": "Reset",
+        "ariaLabel": ""
+      },
+      "_showCorrectAnswer": {
+        "buttonText": "Submit",
+        "ariaLabel": ""
+      },
+      "_hideCorrectAnswer": {
+        "buttonText": "Show My Answer",
+        "ariaLabel": ""
+      },
+      "_showFeedback": {
+        "buttonText": "Show Feedback",
+        "ariaLabel": ""
+      },
+      "remainingAttemptsText": "attempts remaining",
+      "remainingAttemptText": "final attempt"
+    },
+    "_feedback": {
+        "correct": "<div class='correct_img'><span>Good job!</span></div><p>Remember, you need organic and non-organic installs in order to grow your user base.</p>",
+        "_incorrect": {
+            "notFinal": "<div class='incorrect_img'><span>Nice attempt.</span></div><p class='hot-instrunction'>The correct answer is:</p><ul class='custom-match'><li>Organic installs are app installs that occur without any direct effort by the advertiser to acquire the user through paid or owned campaigns</li><li>Whereas, non-organic installs are driven by the marketing activity – whether through paid advertising campaigns or owned campaigns using push and email notifications</li></ul><p class='custom_space'>It is important to remember that you can't build a sustainable growth strategy based on paid users alone. However, you can’t expect a smaller percentage of organic users to deliver sufficient revenue for your business. With non-organic traffic, you can drive scale by running user acquisition campaigns, while with organic traffic, you can reduce your effective cost. You need a combination of both in order to have a successful app.</p>",
+            "final": "<div class='incorrect_img'><span>Nice attempt.</span></div><p class='hot-instrunction'>The correct answer is:</p><ul class='custom-match'><li>Organic installs are app installs that occur without any direct effort by the advertiser to acquire the user through paid or owned campaigns</li><li>Whereas, non-organic installs are driven by the marketing activity – whether through paid advertising campaigns or owned campaigns using push and email notifications</li></ul><p class='custom_space'>It is important to remember that you can't build a sustainable growth strategy based on paid users alone. However, you can’t expect a smaller percentage of organic users to deliver sufficient revenue for your business. With non-organic traffic, you can drive scale by running user acquisition campaigns, while with organic traffic, you can reduce your effective cost. You need a combination of both in order to have a successful app.</p>"
+        },
+        "_partlyCorrect": {
+            "notFinal": "<div class='incorrect_img'><span>Nice attempt.</span></div><p class='hot-instrunction'>The correct answer is:</p><ul class='custom-match'><li>Organic installs are app installs that occur without any direct effort by the advertiser to acquire the user through paid or owned campaigns</li><li>Whereas, non-organic installs are driven by the marketing activity – whether through paid advertising campaigns or owned campaigns using push and email notifications</li></ul><p class='custom_space'>It is important to remember that you can't build a sustainable growth strategy based on paid users alone. However, you can’t expect a smaller percentage of organic users to deliver sufficient revenue for your business. With non-organic traffic, you can drive scale by running user acquisition campaigns, while with organic traffic, you can reduce your effective cost. You need a combination of both in order to have a successful app.</p>",
+            "final": "<div class='incorrect_img'><span>Nice attempt.</span></div><p class='hot-instrunction'>The correct answer is:</p><ul class='custom-match'><li>Organic installs are app installs that occur without any direct effort by the advertiser to acquire the user through paid or owned campaigns</li><li>Whereas, non-organic installs are driven by the marketing activity – whether through paid advertising campaigns or owned campaigns using push and email notifications</li></ul><p class='custom_space'>It is important to remember that you can't build a sustainable growth strategy based on paid users alone. However, you can’t expect a smaller percentage of organic users to deliver sufficient revenue for your business. With non-organic traffic, you can drive scale by running user acquisition campaigns, while with organic traffic, you can reduce your effective cost. You need a combination of both in order to have a successful app.</p>"
+        }
+    },
+    "placeholder": "Select an option",
+    "_items": [
+        {
+            "text": "<p>These are app installs that occur without any direct effort by the advertiser to acquire users.</p>",
+            "_options": [
+                {
+                    "text": "Organic Installs",
+                    "_isCorrect": true
+                },
+                {
+                    "text": "Non-Organic Installs",
+                    "_isCorrect": false
+                }
+            ]
+        },
+        {
+            "text": "<p>These are usually a result of paid efforts, for example an ad, or owned media, such as email or push notifications.</p>",
+            "_options": [
+                 {
+                    "text": "Organic Installs ",
+                    "_isCorrect": false
+                },
+                {
+                    "text": "Non-Organic Installs",
+                    "_isCorrect": true
+                }
+            ]
+        }
+    ],
+	  "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+  },
+  {
+        "_id": "c-01_00-05-13-a-01",
+        "_parentId": "b-01_00-05-13-a",
+        "_type": "component",
+        "_component": "text",
+         "_isComplete": true,
+        "_classes": "checkCompletion",
+        "_layout": "",
+		"title": "",
+        "displayTitle":"",
+        "body": "<h6 class='complete-class1'>Check your completion</h6><p>Note: Please view your topic completion progress by selecting the menu icon <img src='course/en/images/mod-1/menu_white.png' alt=''/> (top right) to find which section(s) needs to be completed.</p>",
+        "instruction": "",
+        "_pageLevelProgress": {
+            "_isEnabled": false
+        }
+	}
+    
+]

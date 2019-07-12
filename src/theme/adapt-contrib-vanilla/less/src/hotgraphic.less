@@ -1,0 +1,79 @@
+.hotgraphic-component {
+
+	.hotgraphic-graphic-pin {
+		background-color: @item-text-color;
+
+		&.visited {
+			.hotgraphic-graphic-pin-icon {
+				color: @item-color-visited;
+			}
+		}
+		.no-touch &:hover {
+			background-color: @item-text-color;
+			
+			.hotgraphic-graphic-pin-icon {
+				color: @item-color-hover;
+			}
+		}
+	}
+
+	.hotgraphic-graphic-pin-icon {
+		color: @item-color;
+		&:before { display: none;}
+	}
+
+	.hotgraphic-popup {
+		background-color: @background-color;
+		border: @item-border;
+	}
+
+	.hotgraphic-popup-toolbar {
+		background-color: transparent;
+		font-weight: @font-weight-bold;
+	}
+
+	.hotgraphic-popup-nav {
+		background-color: @item-color;
+	}
+
+	.hotgraphic-popup-done {
+		.no-touch &:hover {
+			.hotgraphic-popup-close {
+				color: #575859;
+				border-radius: 0 !important;
+			}
+		}
+	}
+
+	.hotgraphic-popup-arrow-l, 
+	.hotgraphic-popup-arrow-r,
+	.hotgraphic-popup-close {
+		padding: @item-padding;
+		background: @white;
+		color: #575859;
+	}
+
+	.hotgraphic-popup-count {
+		padding: @item-padding;
+		color: @item-text-color;
+	}
+
+	.hotgraphic-popup-controls {
+		.no-touch &:hover {
+			.hotgraphic-popup-arrow-l,
+			.hotgraphic-popup-arrow-r {
+				color: @button-text-color-hover;
+				border-radius:0;
+			}
+		}
+	}
+
+	.hotgraphic-popup-inner {
+		padding: 0;
+	}
+
+	.hotgraphic-content-title {
+		.item-title;
+		margin-bottom: @title-text-margin;
+	}
+}

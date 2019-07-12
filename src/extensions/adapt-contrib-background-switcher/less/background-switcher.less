@@ -1,0 +1,89 @@
+
+.page.background-switcher-active {
+
+    .page-inner {
+        position: relative;
+    }
+    
+    .background-switcher-desktop {
+        
+        .article {
+            position:relative;
+            background-color: transparent;
+        }
+
+        .block {
+            background-color: @background-color;
+                
+            &.background-switcher-block {
+                background-color: transparent !important;
+
+                .background-switcher-block-mobile {
+                    background-image: none !important;
+                }
+            }
+        }
+        
+        .background-switcher-container {
+            
+            .background-switcher-background {
+
+                background-size: cover;
+                background-position: 50% 0;
+                position: fixed;
+                z-index: 0;
+                width: 100%;
+                height: 100%;
+                top: /*(@navigation-padding * 2) + @icon-size*/ /*45px*/ 0;                                     
+                opacity: 0;
+
+                transition: opacity 1s;
+            }
+
+            .background-switcher-background.active {                
+                opacity:1;
+            }
+        }
+    }
+    
+    .background-switcher-mobile {
+        
+        .background-switcher-background {
+            display:none;
+        }
+        
+        .block.background-switcher-block {
+            
+            .background-switcher-block-mobile {
+                
+                background-size: cover !important;
+                background-repeat: no-repeat;
+                background-position: center;
+            }
+        }        
+    }
+    
+    .ie8 & {
+        .background-switcher-desktop;
+        
+        .background-switcher-container {            
+            .background-switcher-background {        
+                max-width: @ie8-max-width;
+            }
+        }
+    }
+    @media all and (min-width:699px) {
+        .background-switcher-desktop;   
+    }
+    
+    @media all and (max-width:699px){
+        .background-switcher-mobile;
+    }
+
+    @media all and (width:800px) and (height:500px),
+    all and (max-width: 920px) {
+        
+        top: /*(@navigation-padding-small * 2) + @icon-size-small*/ 0;
+    }     
+
+}

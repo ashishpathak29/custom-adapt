@@ -1,0 +1,33 @@
+{{!-- Wrapped with div class="certificate-input-name" --}}
+<div class="certificate-input-name-outer-wrapper">
+    <div class="certificate-input-name-inner">
+        <div class="bg-image">
+            
+        </div>
+        <div class="certificate-input-name-wrapper">
+            <div class="body">		
+                <p>{{{body}}}</p>
+            </div>
+            <div class="form">
+                {{!-- each input is then passed to the certificate, name is the id for the value --}}
+                <div class="field-name">
+                    <label for="name">{{{labelName}}}</label>
+                    <input type="text" class="text-box" name="name" />
+                </div>
+                <div class="field-surname">
+                    <label for="surname">{{{labelSurname}}}</label>
+                    <input type="text" class="text-box" name="surname" />
+                </div>
+                <div class="field-userId">
+                    <label for="userId">{{{labelUserId}}}</label>
+                    <input type="text" class="text-box" name="userId" />
+                </div>
+            </div>
+            <div class="submit-btn-row">
+                <a href="#" class="button submit-btn clearfix" ><span>{{{labelButton}}}</span></a>
+                <a href="#" class="button close-btn clearfix" ><span>{{{labelCloseButton}}}</span></a>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="certificate-shadow"></div>

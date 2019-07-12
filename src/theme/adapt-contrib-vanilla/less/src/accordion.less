@@ -1,0 +1,87 @@
+.accordion-component {
+
+    .accordion-item {
+        margin-bottom: @item-margin-bottom;
+    }
+
+    .accordion-item-title-icon {
+        .dir-rtl & {
+	        left:inherit;
+	        right:@item-padding-left; 
+        }
+    }
+
+    .accordion-item-title {
+        color: #575859;
+        background-color: #dcdc2c;
+        padding-top: @item-padding-top;
+        padding-bottom: @item-padding-bottom;
+        padding-left: (@icon-size+(@item-padding-left*2));
+        .item-title;
+        
+        .dir-rtl & {
+            padding-left:inherit;
+            padding-right:(@icon-size+(@item-padding-left*2));
+        }
+
+        &.visited {
+            color: #575859;
+            background-color: #dcdc2c;
+            border-color: @item-border-color-visited;
+
+            .accordion-item-title-icon {
+                color: @item-text-color-visited;
+            }
+        }
+
+        &.selected {
+            color: @white;
+            background-color: #0058a6;
+            border-color: @item-border-color-selected;
+
+            .accordion-item-title-icon {
+                color: @item-text-color-selected;
+            }
+        }
+        .no-touch & {
+            &:hover {
+                color:#575859;
+                background-color: #dcdc2c;
+                border-color: @item-border-color-hover;
+
+                .accordion-item-title-icon {
+                    color: @item-text-color-hover;
+                }
+            }
+            &.visited:hover {
+                color: @white;
+                background-color: #0058a6;
+                border-color: @item-border-color-hover;
+
+                .accordion-item-title-icon {
+                    color: @item-text-color-hover;
+                }
+            }
+            &.selected:hover {
+				background-color: #0058a6;
+			}
+        }
+
+    }
+
+    .accordion-item-body {
+        color:#575859;
+        background-color: #f1f8ff;
+        border-bottom: 3px solid #e6e6e6;
+        //border-color: @item-border-color-selected;
+        border-top: 0;
+    }
+
+    .accordion-item-body-inner {
+        padding-top: @item-padding-top;
+        padding-bottom: @item-padding-bottom;
+        padding-left: @item-padding-left;
+        padding-right: @item-padding-right;
+    }
+
+}

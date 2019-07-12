@@ -1,0 +1,29 @@
+{{!-- Wrapped with div class="certificate" --}}
+<div class="certificate-outer-wrapper">
+    <div class="certificate-inner">
+        <div class="bg-image">
+        </div>
+        <div class="certificate-wrapper">
+            <div id="box_headingtext1">{{headingText}}</div>
+            <div id="box_text">{{boxText}}</div>
+            <div id="userName">{{{userName}}}<br/>{{labelUserId}}{{{userId}}}</div>
+            <div id="box_text1">{{boxTextContinued}}</div>
+            <div id="box_headingtext2">{{courseTitle}}{{#if isStandalone}} - {{{courseTitle_type.standalone}}}{{else}} - {{{courseTitle_type.online}}}{{/if}}{{#if courseTitle_lang}}{{{courseTitle_lang}}}{{/if}}</div>
+            {{!--
+                use labelScore and score and/or maxScore when assessment is required for completion
+                use scoreAsPercent when isPercentageBased is true
+            --}}
+            <div id="box_text2">{{{labelScore}}}{{#if isPercentageBased}}{{scoreAsPercent}}%{{else}}{{score}}/{{maxScore}}{{/if}}{{date}}</div>
+            <div id="box_headingtext4">{{extraText}}</div>
+            <div id="print"></div>
+        </div>
+
+        <div class="print-btn-row">
+            <div class="button-wrapper">
+                <a href="#" class="button print-btn clearfix" ><span>{{{labelPrintButton}}}</span></a>
+                <a href="#" class="button close-btn clearfix" ><span>{{{labelCloseButton}}}</span></a>
+            </div>    
+        </div>    
+    </div>
+</div>
+<div class="certificate-shadow"></div>

@@ -1,0 +1,65 @@
+//
+@stickyBackgroundColorIE8: rgb(255, 255, 255);
+@stickyBackgroundColor: rgba(255, 255, 255, 0.7);
+.importantStickyBackgroundColorMixin {
+    background-color: @stickyBackgroundColorIE8 !important;
+    background-color: @stickyBackgroundColor !important;
+}
+.stickyHeader {
+    padding: 0px 0px;
+    position: relative;
+    color: @green;
+}
+.stickyHeader.fixed {
+    position: fixed;
+    top: 0;
+    z-index: 350;
+}
+.stickyHeaderBackground {
+    .importantStickyBackgroundColorMixin;
+    border-bottom: 2px solid white;
+    position: fixed;
+    left: 0px;
+    width: 100%;
+    z-index: -1;
+}
+.stickyHeader.fixed .stickyHeaderBackground {
+    display: block;
+    padding-bottom: 0px;
+}
+.stickyHeader .stickyHeaderBackground {
+    display: none;
+}
+.block.stickyHeaderBlock {
+    .importantStickyBackgroundColorMixin;
+    border-bottom: 2px solid white;
+    margin-bottom: 60px;
+    &.fixed {
+        background-color: transparent !important;
+        border: none;
+        .block-inner {
+            padding: 0px 0px; //turn off when sticky header on ('fixed') so it will not give bigger dimensions
+        }
+    }
+    .block-inner {
+        padding: 0px 0px;
+        padding-bottom: 6px;
+        min-height: 0; //IE
+        min-height: initial;
+    }
+}
+@media all and (width:800px) and (height:500px),
+all and (max-height:630px),
+all and (max-width:600px) {
+    .stickyHeader.fixed .stickyHeaderBackground {
+        padding-bottom: 0px;
+    }
+    .block.stickyHeaderBlock {
+        .block-inner {
+            padding-bottom: 0px;
+            min-height: 0; //IE
+            min-height: initial;
+            
+        }
+    }
+}

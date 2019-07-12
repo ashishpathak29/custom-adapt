@@ -1,0 +1,10 @@
+{
+    "name":"adapt-section-headings",
+    "version":"0.1.1",
+    "displayName":"Extension that makes adapt-title-bar components tracked and events sent when one goes offscreen",
+    "main":"/js/adapt-section-headings.js",
+    "keywords":[
+        "adapt-plugin",
+        "adapt-extension"
+    ]
+}

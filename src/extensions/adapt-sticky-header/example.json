@@ -1,0 +1,11 @@
+//config.json
+    "_stickyHeader": {
+        "_isEnabled": true,
+        "throttle": 50,
+        "initDelay": 100
+    }
+//contentObjects.json
+//to override or turn off sticky header for that page
+        "_stickyHeader": {
+            "_isEnabled": false
+        }

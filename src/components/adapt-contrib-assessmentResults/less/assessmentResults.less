@@ -1,0 +1,104 @@
+.article.article-noheader .article-inner {
+    padding-top: 0;
+    background-image: none;
+    background-position: 0% 0%;
+    background-repeat: repeat;
+}
+.assessmentResults-retry-button {
+    margin: @component-body-margin;
+}
+.assessmentResults-component.visibility-hidden {
+    display: none;
+}
+//
+.assessmentResults-component {
+    &.failed {
+        .assessmentResults-inner.component-inner {
+            background: transparent url('../../course/en/images/mod5/com-01-05-165-f.png') no-repeat;
+            min-height: 486px;
+            background-size: 100% auto;
+            background-color: transparent;
+            /*
+            .ie7 & , .ie8 & {
+                background-image: url('../../course/en/images/mod6/01-07-090-img01.jpg');
+                min-height: 486px;
+                background-size: 100% auto;
+                filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../course/en/images/mod6/01-07-090-img01.jpg', sizingMethod='scale');
+                -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../course/en/images/mod6/01-07-090-img01.jpg',sizingMethod='scale')";
+            }
+            */
+        }
+    }
+    &.passed {
+        .assessmentResults-inner.component-inner {
+            background: transparent url('../../course/en/images/mod5/com-01-05-165-p.png') no-repeat;
+            min-height: 486px;
+            background-size: 100% auto;
+            background-color: transparent;
+            /*
+            .ie7 & , .ie8 & {
+                background: url('../../course/en/images/mod6/01-07-085-img01-v2.jpg');
+                min-height: 486px;
+                background-size: 100% auto;
+                filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../course/en/images/mod6/01-07-085-img01-v2.jpg', sizingMethod='scale');
+                -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../course/en/images/mod6/01-07-085-img01-v2.jpg',sizingMethod='scale')";
+            }
+            */
+        }
+    }
+    .assessmentResults-body.component-body {
+        width: 100%;
+        background: @white;
+        color: #575859;
+        float: left;
+        clear: both;
+        min-height: 50px;
+        margin-bottom: 10px;
+        position: relative;
+        float: none;
+        margin-top: 42px;
+        margin-left: 0px;
+        margin-right: 0px;
+        padding: 0px;
+        border: none;
+    }
+   /* .assessmentResults-body.component-body:before,
+    .assessmentResults-body.component-body:after {
+        left: 100%;
+        top: 30px;
+        border: solid transparent;
+        content: " ";
+        height: 0;
+        width: 0;
+        position: absolute;
+        pointer-events: none;
+    }*/
+   /* .assessmentResults-body.component-body:before {
+        border-left-color: #f68121;
+        border-width: 21px 31px 0px 21px;
+        margin-top: -21px;
+    }*/
+  /*  .assessmentResults-body.component-body:after {
+        border-left-color: @blue;
+        border-width: 19px 30px 0px 19px;
+        margin-top: -20px;
+    }*/
+    .assessmentResults-widget.component-widget {
+        position: relative;
+        float: none;
+        clear: both;
+        /*margin-top: 42px;
+        margin-left: 0px;
+        margin-right: 62px;
+        padding: 5px 10px 5px 10px;*/
+    }
+}
+@media all and (width:800px) and (height:500px),
+all and (max-height:630px),
+all and (max-width:600px) {
+    .assessmentResults-component {
+        .assessmentResults-body.component-body {
+            width: 100%;
+        }
+    }
+}

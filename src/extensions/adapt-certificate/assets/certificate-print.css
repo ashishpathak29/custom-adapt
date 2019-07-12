@@ -1,0 +1,46 @@
+@page {
+    size: landscape;
+}
+body {
+    height: 100px !important;
+    overflow: hidden !important;
+}
+body #wrapper > * 
+{
+    visibility: hidden;
+    display: none;
+}
+
+body #wrapper .certificate {
+    visibility: visible;
+    display: table;
+}
+
+.print-btn-row {
+    visibility: hidden !important;
+    display: none;
+}
+.certificate-shadow {
+    visibility: hidden !important;
+}
+/*
+@media print {
+    body {
+        height: 100px !important;
+        overflow: hidden !important;
+    }
+    body * {
+        visibility: hidden;
+    }
+    .certificate * {
+        visibility: visible;
+    }
+    .print-btn-row {
+        visibility: hidden !important;
+        display: none;
+    }
+    .certificate-shadow {
+        visibility: hidden !important;
+    }    
+}
+*/

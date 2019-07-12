@@ -1,0 +1,36 @@
+//config.json
+//different pages for first time and returning user
+    "_alternativeStart": {
+        "_isEnabled": true,
+        "firstTimeId":"co-35",
+        "returningId":"co-45"
+    }
+
+//config.json
+// first time and returning user will use the same location
+    "_alternativeStart": {
+        "_isEnabled": true,
+        "firstTimeId":"co-35"
+    }
+//config.json
+// first time and returning user will use the same location
+    "_alternativeStart": {
+        "_isEnabled": true,
+        "returningId":"co-45"
+    }
+
+//config.json
+// returning user will go to the menu
+    "_alternativeStart": {
+        "_isEnabled": true,
+        "firstTimeId":"co-35",
+        "returningId":""
+    }
+//config.json
+// first time user will go to the menu
+    "_alternativeStart": {
+        "_isEnabled": true,
+        "firstTimeId":"",
+        "returningId":"co-45"
+    }
+

@@ -1,0 +1,23 @@
+<div class="assessmentResults-inner component-inner">
+   <!-- component start -->
+    {{> component this}}
+   <!-- component end -->
+    <div class="assessmentResults-widget component-widget">
+        {{#if _isRetryEnabled}}
+        <div class="assessmentResults-retry component-feedback">
+            <div class="assessmentResults-retry-inner component-feedback-inner">
+                {{{a11y_text retryFeedback}}}
+            </div>
+            <div class="assessmentResults-retry-button buttons">
+                <button>{{#if _retry.button}}{{_retry.button}}{{else}}Retry{{/if}}</button>
+            </div>
+        </div>
+        {{else}}
+        <div class="assessmentResults-certificate component-feedback">
+            <div class="assessmentResults-certificate-button">
+				<div class="certificate-button-container"><a href='course/en/doc/certificate_eng.htm' target="_blank" class="button certificate-button"><img src="course/en/images/menu-images/certi-icon2.png" /><span>Print certificate</span></a></div>
+            </div>
+        </div>
+        {{/if}}
+    </div>
+</div>

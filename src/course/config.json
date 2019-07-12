@@ -1,0 +1,88 @@
+{
+	"_defaultLanguage": "en",
+	"_defaultDirection": "ltr",
+	"_questionWeight": 1,
+	"_accessibility": {
+		"_isEnabled": false,
+		"_shouldSupportLegacyBrowsers": true,
+		"_isTextProcessorEnabled": true
+	},
+	"_drawer": {
+		"_showEasing": "easeOutQuart",
+		"_hideEasing": "easeInQuart",
+		"_duration": 400
+	},
+	"_spoor": {
+		"_isEnabled": true,
+		"_tracking": {
+			"_requireCourseCompleted": true,
+			"_requireAssessmentPassed": false,
+			"_shouldSubmitScore": true,
+			"_shouldStoreResponses": true,
+			"_shouldRecordInteractions": false
+		},
+		"_reporting": {
+			"_comment": "Your options here are 'completed', 'passed', 'failed', and 'incomplete'",
+			"_onTrackingCriteriaMet": "completed",
+			"_onAssessmentFailure": "incomplete",
+			"_resetStatusOnLanguageChange": false
+		}
+	},
+    
+	"_trickle": {
+		"_completionAttribute": "_isComplete"
+	},
+	"_inspector": {
+		"_isEnabled": false,
+		"_allowEnablingViaUrl": true,
+		"_tracUrl": "",
+		"_sendTo": "clipboard"
+	},
+	"_teleporter": {
+		"_allowEnablingViaUrl": true,
+		"_isEnabled": false
+	},
+     "_alternativeStart": {
+        "_isEnabled": true,
+        "firstTimeId": "co-05-01",
+		 "returningId":"co-05-01"
+    },
+    "_close": {
+	"_isEnabled": false
+    },
+	"_stickyHeader": {
+		"_isEnabled": false,
+		"throttle": 50
+	},
+	"_sectionHeadings": {
+		"_isEnabled": true,
+		"throttle": 50
+	},
+	"_subTopicMenu": {
+		"_isEnabled": false,
+		"initDelay": 500
+	},
+	"_navButtons": {
+		"_isEnabled": false,
+		"gap": {
+			"small": 10,
+			"saba": 16,
+			"medium": 16,
+			"large": 20
+		},
+		"items": [{
+			"text": "Back",
+			"action": "prev"
+		}, {
+			"text": "Next",
+			"action": "next"
+		}]
+	},
+	"_disableAnimationFor": [".ie8", ".iPhone.version-7\\.0"],
+	"build": {},
+	"screenSize": {
+		"small": 520,
+		"medium": 760,
+		"large": 900
+	}
+}

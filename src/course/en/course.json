@@ -1,0 +1,347 @@
+{
+    "_globals": {
+        "_components": {
+            "_accordion": {
+                "ariaRegion": "This component is an accordion comprised of collapsible content panels containing display text. Select the item titles to toggle the visibility of these content panels."
+            },
+            "_flipcard": {
+                "ariaRegion": "This component is a flipcard comprised of flippable cards containing display image. Select the front face image to flip to the back face of these card to display associated text."
+            },
+            "_gmcq": {
+                "ariaRegion": "This component is a graphical multiple choice question. Once you have selected an option select the submit button below."
+            },
+            "_graphic": {
+                "ariaRegion": ""
+            },
+            "_hotgraphic": {
+                "ariaRegion": "Below is a component which allows you to select hot spots over an image. Select a hot spot to trigger a popup that includes an image with display text. Select the close button to close the popup.",
+                "ariaPoupupLabel": "Hotgraphic popup",
+                "ariaPopupLabel": "Hotgraphic popup"
+            },
+            "_matching": {
+                "ariaRegion": "This question component requires you to select the matching answer from a drop down list below. When you have selected your answers select the submit button."
+            },
+            "_mcq": {
+                "ariaRegion": "This component is a multiple choice question. Once you have selected an option select the submit button below"
+            },
+            "_media": {
+                "ariaRegion": "This is a media component which plays a video. Select the play / pause button to watch or listen.",
+                "transcriptButton": "Alternatively you can select the link below for the transcript."
+            },
+            "_narrative": {
+                "ariaRegion": "This component displays an image gallery with accompanying text. Use the next and back navigation controls to work through the narrative."
+            },
+            "_objectMatching": {
+                "ariaRegion": "This question component requires you to select the matching option. When you have selected your answers select the submit button."
+            },
+            "_slider": {
+                "ariaRegion": "This component requires you to answer the question by selecting the relevant value. After selecting a value select the submit button below."
+            },
+            "_text": {
+                "ariaRegion": ""
+            },
+            "_textinput": {
+                "ariaRegion": "This question component requires you to input your answer in the textbox provided. When you have answered the question select the submit button below."
+            }
+        },
+        "_extensions": {
+            "_pageLevelProgress": {
+                "pageLevelProgress": "Page sections",
+                "pageLevelProgressIndicatorBar": "Menu",
+                "pageLevelProgressMenuBar": "You have completed ",
+                "pageLevelProgressEnd": "You have reached the end of the list of page sections.",
+                "optionalContent": "Optional Content"
+            }
+        },
+        "_menu": {
+            "_menu-3063": {
+                "ariaRegion": "Menu",
+                "menuItem": "Menu item.",
+                "menuEnd": "You have reached the end of the menu."
+            },
+            "_boxmenu": {
+                "ariaRegion": "Menu",
+                "durationLabel": "Duration:",
+                "menuItem": "Menu item.",
+                "menuEnd": "You have reached the end of the menu."
+            }
+        },
+        "_accessibility": {
+            "accessibilityToggleTextOn": "Turn accessibility on?",
+            "accessibilityToggleTextOff": "Turn accessibility off?",
+            "_accessibilityInstructions": {
+                "touch": "Usage instructions. Use swipe right for next. Use swipe left for previous. Use a double tap to select. Use a two finger slide up to go to the top of the page.",
+                "notouch": "Usage instructions. Use tab for next. Use shift tab for previous. Use enter to select. Use escape to go to the top of the page.",
+                "ipad": "Usage instructions for touchscreens. Use swipe right for next. Use swipe left for previous. Use a double tap to select. Use a two finger slide up to go to the top of the page. Usage instructions for keyboard access. Use right for next. Use left for previous. Use up and down together to select."
+            },
+            "_ariaLabels": {
+                "navigation": "Course navigation bar",
+                "menuLoaded": "Menu Loaded.",
+                "menu": "Menu",
+                "page": "Page",
+                "pageLoaded": "Page Loaded.",
+                "pageEnd": "You have reached the end of the page.",
+                "previous": "Back",
+                "navigationBack": "Navigate back",
+                "navigationDrawer": "Resources",
+                "close": "Close",
+                "closeDrawer": "Close",
+                "closeResources": "Close resources",
+                "resourcesEnd": "You have reached the end of the list of resources.",
+                "drawerBack": "Back to drawer",
+                "drawer": "Top of side drawer",
+                "closePopup": "Close popup",
+                "next": "Next",
+                "done": "Done",
+                "complete": "Completed",
+                "incomplete": "Incomplete",
+                "incorrect": "Incorrect",
+                "correct": "Correct",
+                "locked": "Locked",
+                "accessibilityToggleButton": "By selecting this button you can set whether accessibility is turned on or off",
+                "feedbackPopUp": "Popup opened.",
+                "menuBack": "Back to menu",
+                "visited": "Visited"
+            }
+        }
+    },
+    "_id": "course",
+    "_type": "course",
+    "title": "History and Background",
+    "displayTitle": "",
+    "description": "",
+    "body": "<div class='welcome-text'><h3 class='custom_heading'>History and Background</h3><p>This History and Background course covers the following topics.</p><h5><i>Select the first topic to get started. You can also revisit a previous topic to review.</i></h5></div>",
+    "_buttons": {
+        "_submit": {
+            "buttonText": "Submit",
+            "ariaLabel": "Submit"
+        },
+        "_reset": {
+            "buttonText": "Reset",
+            "ariaLabel": "Reset the question by clicking here."
+        },
+        "_showCorrectAnswer": {
+            "buttonText": "Show Correct Answer",
+            "ariaLabel": "Show Correct Answer"
+        },
+        "_hideCorrectAnswer": {
+            "buttonText": "Show My Answer",
+            "ariaLabel": "Show My Answer"
+        },
+        "_showFeedback": {
+            "buttonText": "Show Feedback",
+            "ariaLabel": "View the question feedback again by clicking here."
+        },
+        "remainingAttemptsText": "attempts remaining",
+        "remainingAttemptText": "final attempt",
+        "disabledAriaLabel": "This button is disabled at the moment."
+    },
+    "_pageLevelProgress": {
+        "_isEnabled": true,
+        "_altText": "of components completed on this page."
+    },
+    "_resources": {
+        "_isEnabled": true,
+        "title": "<b>Resources</b>",
+        "description": "",
+        "_filterButtons": {},
+        "_filterAria": {},
+        "itemAriaExternal": "This content will open in a new window",
+        "_resourcesItems": [
+            {
+                "_type": "document",
+                "title": "Topic 1: History and Background ",
+                "description": "The Evolution of Non-Organic Traffic",
+                "_link": "https://www.appsflyer.com/blog/evolution-non-organic-traffic/"
+            },
+            {
+                "_type": "document",
+                "title": "Topic 1: History and Background ",
+                "description": "Top 5 AppsFlyer Industry Data Trends from 2017, and What They Mean for 2018",
+                "_link": "https://www.appsflyer.com/blog/top-5-appsflyer-industry-data-trends-2017-mean-2018/"
+            },
+            {
+                "_type": "document",
+                "title": "Topic 2: Mapping the Ecosystem and Main Players",
+                "description": "Getting Started With Mobile Attribution & Marketing Analytics ",
+                "_link": "https://www.appsflyer.com/resources/getting-started-mobile-attribution-marketing-analytics-guide/?s=analytics"
+            },
+            {
+                "_type": "document",
+                "title": "Topic 3: Pricing Models - Campaign Strategy",
+                "description": "Facebook Pricing Models: Pros & Cons [Cheat Sheet]",
+                "_link": "https://www.appsflyer.com/resources/facebook-pricing-models-pros-cons-cheat-sheet/?s=pricing+models"
+            },
+            {
+                "_type": "document",
+                "title": "Topic 4: Marketing Analytics",
+                "description": "Breakdown of Mobile Analytics",
+                "_link": "https://www.appsflyer.com/resources/breakdown-of-mobile-analytics-cheat-sheet/?s=analytics"
+            }
+        ]
+    },
+    "_glossary": {
+        "_isEnabled": true,
+        "title": "<b>Glossary</b>",
+        "description": "",
+        "searchPlaceholder": "Search",
+        "searchWithInDescriptionLabel": "Search within Description",
+        "itemNotFoundMessage": "Sorry! No results to display",
+        "_glossaryItems": [
+            {
+                "term": "Ad Monetization",
+                "description": "<p>When, as an app owner, you’re acting as a publisher and showing your users ads in the form of banners or videos, for example, and then receiving payments from the advertisers for these ads.</p>"
+            },
+            {
+                "term": "Cookies",
+                "description": "<p>Cookies are used for all ad retargeting and behavioral advertising. By adding tags to a page, advertisers can track a user or their device across different websites. That helps build a profile of the user based on their habits, so messages can be better targeted to their interests. However, this also led to an era of bad practices like cookies bombing, incessant retargeting, and other spray-and-pray approaches.</p>"
+            },
+            {
+                "term": "Organic",
+                "description": "<p>Users who are not coming from a paid source</p>"
+            },
+            {
+                "term": "Organic Multiplier",
+                "description": "<p>Based on the principle that by increasing your non-organic users, you will then increase your organic users by a factor or 1.5x or even 2x. This is done by purchasing <br/>non-organic users, to increase awareness of the app so it will be found more easily. In turn this then increases your reach, leading to an increase in organic users.</p>"
+            },
+            {
+                "term": "Non-Organic",
+                "description": "<p>Users who come via paid advertising networks</p>"
+            },
+            {
+                "term": "ARPU",
+                "description": "<p>Average revenue per user (ARPU) is defined as the total revenue divided by the number of users.</p>"
+            },
+            {
+                "term": "Intelligent Tracking Prevention (ITP)",
+                "description": "<p>iOS 11’s Intelligent Tracking Prevention (ITP) prevents cookies from tracking the user 24 hours after they first interacted with the site.</p>"
+            },
+            {
+                "term": "Apple’s Safari",
+                "description": "<p>Safari is a web browser, developed by Apple and used on iOS devices.</p>"
+            },
+            {
+                "term": "Broken App Discovery",
+                "description": "<p>Broken app discovery is when an app has difficulty getting noticed as a result of the abundance of apps in the app stores.</p>"
+            },
+            {
+                "term": "Fingerprinting",
+                "description": "<p>This solution is applied when the device ID or Google Play Referrer is not available. Unlike the identifier, fingerprinting uses probability to measure mobile and is very accurate in short time frames.</p>"
+            }
+        ]
+    },
+    "_assessment": {
+        "_postTotalScoreToLms": false,
+        "_isPercentageBased": true,
+        "_scoreToPass": 0
+    },
+    "_bookmarking": {
+        "_isEnabled": false,
+        "_level": "block",
+        "title": "Bookmarking",
+        "body": "Would you like to continue where you left off?",
+        "_buttons": {
+            "yes": "Yes",
+            "no": "No"
+        }
+    },
+    "_close": {
+        "_isEnabled": true,
+        "_button": {
+            "_isEnabled": true,
+            "_notifyPromptIfIncomplete": {
+                "_isEnabled": true,
+                "title": "Confirm close",
+                "body": "Are you sure you want to close the window?",
+                "confirm": "Yes",
+                "cancel": "No"
+            },
+            "_notifyPromptIfComplete": {
+                "_isEnabled": true,
+                "title": "Confirm close",
+                "body": "Are you sure you want to close the window?",
+                "confirm": "Yes",
+                "cancel": "No"
+            }
+        },
+        "browserPromptIfIncomplete": "false",
+        "browserPromptIfComplete": "false"
+    },
+    "_certificate": {
+        "_isEnabled": true,
+        "openCertificateOnComplete": false,
+        "headingText": "",
+        "boxText": "",
+        "boxTextContinued": "",
+        "courseTitle": "",
+        "courseTitle_type": {
+            "standalone": "",
+            "online": ""
+        },
+        "courseTitle_lang": "",
+        "labelUserId": "Staff ID: ",
+        "labelScore": "",
+        "extraText": "",
+        "dateFormat": " ^o^n d F Y",
+        "dateFormat_comment": "Following letters needs to be escaped with ^ character: dDjlNSwzWFmMntLoYyaABgGhHisueTIOPZcrU",
+        "dateFormatOptions": {
+            "monthNames": [
+                "January",
+                "February",
+                "March",
+                "April",
+                "May",
+                "June",
+                "July",
+                "August",
+                "September",
+                "October",
+                "November",
+                "December"
+            ],
+            "monthNamesAbbr": [
+                "Jan",
+                "Feb",
+                "Mar",
+                "Apr",
+                "May",
+                "Jun",
+                "Jul",
+                "Aug",
+                "Sep",
+                "Oct",
+                "Nov",
+                "Dec"
+            ],
+            "dayNames": [
+                "Sunday",
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday",
+                "Saturday"
+            ],
+            "dayNamesAbbr": [
+                "Sun",
+                "Mon",
+                "Tue",
+                "Wed",
+                "Thur",
+                "Fri",
+                "Sat"
+            ]
+        },
+        "labelPrintButton": "Print Certificate",
+        "labelCloseButton": "Close",
+        "input": {
+            "body": "",
+            "labelName": "",
+            "labelSurname": "",
+            "labelUserId": "",
+            "labelButton": "",
+            "labelCloseButton": ""
+        }
+    },
+    "_latestTrackingId": 172
+}

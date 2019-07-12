@@ -1,0 +1,72 @@
+ "_certificate": {
+        "_isEnabled": true,
+        "headingText": "Certificate of Completion",
+        "boxText": "This certificate is presented in recognition of",
+        "boxTextContinued": "for having successfully completed",
+        "courseTitle": "Anti-Money Laundering and Counter Terrorist Financing",
+        "courseTitle_type": {
+            "standalone": "Standalone version",
+            "online": "e-learning"
+        },
+        "labelUserId": "Staff ID: ",
+        "labelScore": "with a score of ",
+        "courseTitle_lang": " (Thai)",
+        "extraText": "Sponsored by Standard Chartered Financial Crime Compliance Academy",
+        "dateFormat": " ^o^n d F Y",
+        "dateFormat_comment": "Following letters needs to be escaped with ^ character: dDjlNSwzWFmMntLoYyaABgGhHisueTIOPZcrU",
+        "dateFormatOptions": {
+            "monthNames": [
+                "January",
+                "February",
+                "March",
+                "April",
+                "May",
+                "June",
+                "July",
+                "August",
+                "September",
+                "October",
+                "November",
+                "December"
+            ],
+            "monthNamesAbbr": [
+                "Jan",
+                "Feb",
+                "Mar",
+                "Apr",
+                "May",
+                "Jun",
+                "Jul",
+                "Aug",
+                "Sep",
+                "Oct",
+                "Nov",
+                "Dec"
+            ],
+            "dayNames": [
+                "Sunday",
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday",
+                "Saturday"
+            ],
+            "dayNamesAbbr": [
+                "Sun",
+                "Mon",
+                "Tue",
+                "Wed",
+                "Thur",
+                "Fri",
+                "Sat"
+            ]
+        },
+        "input": {
+            "body": "Please enter following details required to display the certificate.",
+            "labelName": "First name:",
+            "labelSurname": "Last name:",
+            "labelUserId": "Staff ID:",
+            "labelButton": "Confirm"
+        }
+    }

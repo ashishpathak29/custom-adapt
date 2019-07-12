@@ -1,0 +1,258 @@
+.nav-buttons {
+    .nav-buttons-disabled {
+        cursor: default;
+
+        &.nav-buttons-item {
+            &.nav-buttons-item-0 {
+                background: url('../../assets/nav-buttons-back-large-disabled.png') no-repeat !important;
+
+                .ie8 & {
+                    background: url('../../assets/nav-buttons-back-small-disabled.png') no-repeat !important;
+                }
+
+                .label {
+                    color: #555;
+                }
+            }
+
+            &.nav-buttons-item-1 {
+                background: url('../../assets/nav-buttons-next-large-disabled.png') no-repeat !important;
+
+                .ie8 & {
+                    background: url('../../assets/nav-buttons-next-small-disabled.png') no-repeat !important;
+                }
+            }
+
+            .label {
+                color: #C0C0C0;
+            }
+        }
+    }
+}
+
+.nav-buttons-active {
+    cursor: auto;
+}
+
+.nav-buttons {
+    position: fixed;
+    right: 0px;
+    bottom: 10%;
+    background: url('../../assets/nav-buttons-background-large.png') no-repeat;
+    width: 71px;
+    height: 151px;
+    z-index: 999;
+
+    .dir-rtl & {
+        right: inherit;
+        left: 0px;
+        background: url('../../assets/nav-buttons-background-large-rtl.png') no-repeat;
+    }
+
+    .nav-buttons-item {
+        display: block;
+        text-decoration: none;
+
+        &.nav-buttons-item-0 {
+            background: url('../../assets/nav-buttons-back-large.png') no-repeat;
+            width: 48px;
+            height: 48px;
+            margin: 0 auto;
+            margin-top: 12px;
+
+            .label {
+                color: #2B9F32;
+                padding-top: 24px;
+                font-size: 11px;
+                font-weight: bold;
+            }
+        }
+
+        &.nav-buttons-item-1 {
+            background: url('../../assets/nav-buttons-next-large.png') no-repeat;
+            width: 59px;
+            height: 59px;
+            margin: 0 auto;
+            margin-top: 20px;
+
+            .label {
+                padding-top: 10px;
+            }
+        }
+
+        .label {
+            color: rgb(195, 224, 191); //ie8
+            color: rgba(255, 255, 255, 0.7);
+            font-size: 13px;
+            text-align: center;
+        }
+    }
+
+    .ie8 & {
+        bottom: 10px;
+        background: url('../../assets/nav-buttons-background-small.png') no-repeat;
+        width: 41px;
+        height: 76px;
+
+        .dir-rtl & {
+            background: url('../../assets/nav-buttons-background-small-rtl.png') no-repeat;
+        }
+
+        .nav-buttons-item {
+            display: block;
+            text-decoration: none;
+
+            &.nav-buttons-item-0 {
+                background: url('../../assets/nav-buttons-back-small.png') no-repeat;
+                width: 21px;
+                height: 21px;
+                margin: 0 auto;
+                margin-top: 10px;
+            }
+
+            &.nav-buttons-item-1 {
+                background: url('../../assets/nav-buttons-next-small.png') no-repeat;
+                width: 21px;
+                height: 21px;
+                margin: 0 auto;
+                margin-top: 13px;
+            }
+
+            .label {
+                display: none;
+            }
+        }
+    }
+}
+
+@media all and (max-height:690px) {
+    .nav-buttons {
+        bottom: 5%;
+    }
+}
+
+@media all and (max-height:648px) {
+    .nav-buttons {
+        bottom: 10px;
+    }
+}
+
+@media all and (max-width: (@device-width-small + 20px)) {
+    //hide on small devices
+    .nav-buttons {
+        display: none;
+    }
+}
+
+/* Saba Anywhere specifics */
+
+
+/*@media all and (width:800px) and (height:500px) {*/
+
+@media screen and  (max-width: 941px) {
+    //Tabbed
+
+    .nav-buttons {
+        bottom: 10px;
+        background: url('../../assets/nav-buttons-background-small.png') no-repeat;
+        width: 41px;
+        height: 76px;
+
+        .nav-buttons-disabled {
+            cursor: default;
+
+            &.nav-buttons-item {
+                &.nav-buttons-item-0 {
+                    background: url('../../assets/nav-buttons-back-small-disabled.png') no-repeat !important;
+                }
+
+                &.nav-buttons-item-1 {
+                    background: url('../../assets/nav-buttons-next-small-disabled.png') no-repeat !important;
+                }
+            }
+        }
+
+
+        .dir-rtl & {
+            background: url('../../assets/nav-buttons-background-small-rtl.png') no-repeat;
+        }
+
+        .nav-buttons-item {
+            display: block;
+            text-decoration: none;
+
+            &.nav-buttons-item-0 {
+                background: url('../../assets/nav-buttons-back-small.png') no-repeat;
+                width: 21px;
+                height: 21px;
+                margin: 0 auto;
+                margin-top: 10px;
+            }
+
+            &.nav-buttons-item-1 {
+                background: url('../../assets/nav-buttons-next-small.png') no-repeat;
+                width: 21px;
+                height: 21px;
+                margin: 0 auto;
+                margin-top: 13px;
+            }
+
+            .label {
+                display: none;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 942px) and (max-width: 997px) {
+
+    .nav-buttons {
+        bottom: 10px;
+        background: url('../../assets/nav-buttons-background-medium.png') no-repeat;
+        width: 56px;
+        height: 119px;
+
+        .nav-buttons-disabled {
+            cursor: default;
+
+            &.nav-buttons-item {
+                &.nav-buttons-item-0 {
+                    background: url('../../assets/nav-buttons-back-medium-disabled.png') no-repeat !important;
+                }
+
+                &.nav-buttons-item-1 {
+                    background: url('../../assets/nav-buttons-next-medium-disabled.png') no-repeat !important;
+                }
+            }
+        }
+
+        .dir-rtl & {
+            background: url('../../assets/nav-buttons-background-medium-rtl.png') no-repeat;
+        }
+
+        .nav-buttons-item {
+            display: block;
+            text-decoration: none;
+
+            &.nav-buttons-item-0 {
+                background: url('../../assets/nav-buttons-back-medium.png') no-repeat;
+                width: 34px;
+                height: 34px;
+                margin: 0 auto;
+                margin-top: 12px;
+            }
+
+            &.nav-buttons-item-1 {
+                background: url('../../assets/nav-buttons-next-medium.png') no-repeat;
+                width: 40px;
+                height: 40px;
+                margin: 0 auto;
+                margin-top: 21px;
+            }
+
+            .label {
+                display: none;
+            }
+        }
+    }
+}

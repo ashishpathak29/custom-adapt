@@ -1,0 +1,16 @@
+{
+  "name": "adapt-go-next",
+  "version": "0.3.1",
+  "framework": "^2.0.0",
+  "homepage": "",
+  "issues": "",
+  "displayName" : "Go Next",
+  "component" : "go-next",
+  "description": "Navigation button to be placed in page flow e.g. to add ability to go between modules",
+  "main": "/js/adapt-go-next.js",
+  "keywords": [
+    "adapt-plugin",
+    "adapt-component"
+  ],
+  "license": "GPLv3"
+}

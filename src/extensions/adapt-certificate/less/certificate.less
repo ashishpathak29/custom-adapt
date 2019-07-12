@@ -1,0 +1,197 @@
+@certificate-width: 640px;
+@certificate-height: 475px;
+.certificate-shadow-template {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    .dir-rtl & {
+        left: inherit;
+        right: 0px;
+    }
+    width:100%;
+    height:100%;
+    background-color:rgba(230, 230, 230, 0.8);
+    z-index: -1;
+}
+.certificate {
+    //outer
+    z-index: 1979;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    display: table;
+    top: 0px;
+    left: 0px;
+    //overflow: hidden;
+    overflow-y: scroll;
+    .certificate-outer-wrapper {
+        //middle
+        display: table-cell;
+        vertical-align: middle;
+    }
+    .certificate-inner {
+        //inner
+        margin: 0px auto;
+        width: @certificate-width;
+        height: @certificate-height;
+        position: relative;
+        .certificate-wrapper {
+            position: absolute;
+            margin: 0px auto;
+            display: table;
+            width: 100%;
+            top: 81px;
+            font-size: 16px;
+            font-weight: normal;
+            text-align: center;
+            color: #000000;
+            #box_headingtext1,
+            #box_headingtext2 {
+                height: auto;
+                font-size: 33px;
+                font-weight: bold;
+                color: #38ac4e;
+            }
+            #box_headingtext2 {
+                margin: 8px 0 0 0;
+                font-size: 25px;
+                padding-bottom: 0;
+
+                line-height: 100%;
+            }
+            #score,
+            #userName {
+                height: auto;
+                margin: 25px 0 0 0;
+                font-size: 18px;
+                color: #03527d;
+                font-weight: bold;
+                br {
+                    line-height: 120%;
+                }
+            }
+            #box_text {
+                height: auto;
+                margin: 10px 0 0 0px;
+            }
+            #box_text1 {
+                height: auto;
+                margin: 20px 0 0 0px;
+            }
+            #box_text2 {
+                height: auto;
+                margin: 23px 0 0 0px;
+                padding-bottom: 10px;
+            }
+            #box_headingtext4 {
+                height: auto;
+                margin: 17px 0 0 0px;
+                padding-bottom: 0;
+            }
+        }
+        .bg-image {
+            position: absolute;
+        }
+        .print-btn-row {
+            position: absolute;
+            width: 100%;
+            bottom: 30px;
+            .button-wrapper {
+                margin: 0 auto;
+                width: 320px;
+            }
+            .print-btn {
+                margin: 0px auto;
+                //display: table;
+                padding-left: 12px;
+                padding-right: 12px;
+                span {
+                    padding: inherit;
+                }
+            }
+            .close-btn {
+                margin: 0px auto;
+                span {
+                    padding: inherit;
+                }
+            }
+        }
+    }
+    .certificate-shadow {
+        .certificate-shadow-template;
+    }
+}
+.certificate-input-name {
+    //outer
+    z-index: 1979;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    display: table;
+    top: 0px;
+    left: 0px;
+    //overflow: hidden;
+    overflow-y: scroll;
+    .certificate-input-name-outer-wrapper {
+        //middle
+        display: table-cell;
+        vertical-align: middle;
+        .form {
+            margin-top: 10px;
+        }
+    }
+    .certificate-input-name-inner {
+        //inner
+        margin: 0px auto;
+        width: @certificate-width;
+        height: @certificate-height;
+        position: relative;
+        .certificate-input-name-wrapper {
+            position: absolute;
+            margin: 0px auto;
+            display: table;
+            width: 100%;
+            top: 81px;
+            font-size: 16px;
+            font-weight: normal;
+            text-align: center;
+            color: #000000;
+        }
+        .bg-image {
+            position: absolute;
+        }
+        .submit-btn-row {
+            margin-top: 10px;
+            .submit-btn {}
+            .cert-disabled {
+                cursor: default;
+                color: #C0C0C0;
+                background-color: #3f3f3f;
+            }
+            .cert-active {
+                cursor: auto;
+            }
+        }
+    }
+    .certificate-shadow {
+        .certificate-shadow-template;
+    }
+}
+@media all and (width: 800px) and (height: 500px),
+all and (max-width: (@device-width-small)) {
+    .certificate-button-container {
+        .button.certificate-button {
+            padding-top: 12px;
+            padding-bottom: 12px;
+            font-size: 16px;
+            margin-top: 0px;
+            margin-bottom: 15px;
+            line-height: 100%;
+        }
+    }
+}
+.hide-certificate {
+    .certificate-button {
+        display: none !important;
+    }
+}

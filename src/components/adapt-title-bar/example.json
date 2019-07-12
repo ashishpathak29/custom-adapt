@@ -1,0 +1,30 @@
+//normal
+    {
+        "_id": "c-0510",
+        "_parentId": "b-0510",
+        "_type": "component",
+        "_component": "title-bar",
+        
+        "_classes": "",
+        "_layout": "center",
+        "title": "The Consequences",
+        "displayTitle": "",
+        "body": "",
+        "instruction": ""
+	}
+//excluding from sticky-header extension
+    {
+        "_id": "c-0510",
+        "_parentId": "b-0510",
+        "_type": "component",
+        "_component": "title-bar",
+        
+        "_noSticky":true,
+        
+        "_classes": "",
+        "_layout": "center",
+        "title": "The Consequences",
+        "displayTitle": "",
+        "body": "",
+        "instruction": ""
+	}

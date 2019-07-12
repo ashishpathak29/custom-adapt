@@ -1,0 +1,47 @@
+.ie8 .section-heading-title {
+    margin-left: 173px;
+    margin-right: 173px;
+}
+.section-heading-title {
+    position: relative;
+    margin-left: 222px;
+    margin-right: 222px;
+    .section-heading-title-inner {
+        //todo save as block inner
+        margin: 0 auto;
+        display: block;
+        color: @green;
+        line-height: 100%;
+        text-align: center;
+        font-weight: 700;
+        padding: 8px 0px 8px 42px;
+        font-size: 18px;
+        padding-top: 4px;
+        padding-bottom: 4px;
+        max-width: 600px;
+        @media all and (min-width: 919px) {
+            font-size: 26px;
+            padding: 8px 0px 8px 42px;
+            max-width: 980px;
+        }
+        //@media all and (width: 800px) and (height: 500px), all and (max-height: 630px), all and (max-width: 600px) {
+        //}
+    }
+    @media all and (width: 800px) and (height: 500px) {
+        margin-left: 173px;
+        margin-right: 173px;
+    }
+    @media all and (max-width: (@device-width-small + 20px)) {
+        margin-left: 65px;
+        margin-right: 65px;
+        .section-heading-title-inner {
+            padding: 4px;
+        }
+    }
+}
+.ellipsis {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+}
